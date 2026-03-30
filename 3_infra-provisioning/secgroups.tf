@@ -1,5 +1,5 @@
 resource "aws_security_group" "allow_webserver_traffic" {
-  name        = "allow_tls"
+  name        = "allow_tls ${var.instance_name}"
   description = "Allow TLS inbound traffic and all outbound traffic"
   tags = {
     Name = "allow_nginx_traffic"
