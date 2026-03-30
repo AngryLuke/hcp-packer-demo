@@ -1,12 +1,12 @@
-terraform {
-  cloud {
-    organization = "hashicorp-italy"
+# terraform {
+#   cloud {
+#     organization = "hashicorp-italy"
 
-    workspaces {
-      name = "app-deployment"
-    }
-  }
-}
+#     workspaces {
+#       name = "app-deployment"
+#     }
+#   }
+# }
 
 provider "aws" {
   region = var.region
