@@ -33,4 +33,5 @@ override.tf.json
 terraform
 
 # Ignore .github folder
-./github/*
+./github
+.github/
