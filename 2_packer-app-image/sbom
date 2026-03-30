@@ -1,0 +1,4983 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:776fcb5a-9fa9-41fb-a280-9c0a5ad6a850",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-30T18:19:37Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Mondoo, Inc.",
+          "name": "cnspec",
+          "version": "13.2.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "dc8df912-e6c7-42ac-9d6d-3b75f16c8583",
+      "type": "device",
+      "name": "ip-172-31-46-210.eu-west-1.compute.internal"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "ecd8f695-48bb-47b9-9b9f-c90598aecb27",
+      "type": "operating-system",
+      "name": "ubuntu",
+      "version": "20.04",
+      "cpe": "cpe:2.3:o:canonical:ubuntu_linux:20.04:*:*:*:lts:*:*:*"
+    },
+    {
+      "bom-ref": "71467082-6f9d-4556-80d5-cd1f92bf76ba",
+      "type": "library",
+      "name": "accountsservice",
+      "version": "0.6.55-0ubuntu12~20.04.7",
+      "purl": "pkg:deb/ubuntu/accountsservice@0.6.55-0ubuntu12~20.04.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eb5f623d-8fb9-413a-a350-93ac021d343b",
+      "type": "library",
+      "name": "acpid",
+      "version": "1:2.0.32-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/acpid@1%3A2.0.32-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8442dcb1-4c2b-4cad-ae02-38acf06fef39",
+      "type": "library",
+      "name": "adduser",
+      "version": "3.118ubuntu2",
+      "purl": "pkg:deb/ubuntu/adduser@3.118ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f9679d10-c979-4196-8703-bc4a2910e77d",
+      "type": "library",
+      "name": "alsa-topology-conf",
+      "version": "1.2.2-1",
+      "purl": "pkg:deb/ubuntu/alsa-topology-conf@1.2.2-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "dd2afb56-c8de-4a66-82a8-320c07795bc6",
+      "type": "library",
+      "name": "alsa-ucm-conf",
+      "version": "1.2.2-1ubuntu0.13",
+      "purl": "pkg:deb/ubuntu/alsa-ucm-conf@1.2.2-1ubuntu0.13?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a929dbbd-1374-4135-898a-164445e803ef",
+      "type": "library",
+      "name": "amd64-microcode",
+      "version": "3.20191218.1ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/amd64-microcode@3.20191218.1ubuntu1.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "21910e67-95e8-4eca-9dac-f8975e695e91",
+      "type": "library",
+      "name": "apparmor",
+      "version": "2.13.3-7ubuntu5.4",
+      "purl": "pkg:deb/ubuntu/apparmor@2.13.3-7ubuntu5.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9f9516d9-1da7-4e2b-a10c-aa4260fb576e",
+      "type": "library",
+      "name": "apport",
+      "version": "2.20.11-0ubuntu27.29",
+      "purl": "pkg:deb/ubuntu/apport@2.20.11-0ubuntu27.29?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2a5842cb-633a-4d5b-a546-74767da7e173",
+      "type": "library",
+      "name": "apport-symptoms",
+      "version": "0.23",
+      "purl": "pkg:deb/ubuntu/apport-symptoms@0.23?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0f46796d-10e0-4956-a7d7-c3f9c24a47d5",
+      "type": "library",
+      "name": "apt",
+      "version": "2.0.11",
+      "purl": "pkg:deb/ubuntu/apt@2.0.11?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eb955326-e38c-40a9-8ebd-d65291c73f67",
+      "type": "library",
+      "name": "apt-transport-https",
+      "version": "2.0.11",
+      "purl": "pkg:deb/ubuntu/apt-transport-https@2.0.11?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "18988136-5c81-47bd-819c-9a201e6a542b",
+      "type": "library",
+      "name": "apt-utils",
+      "version": "2.0.11",
+      "purl": "pkg:deb/ubuntu/apt-utils@2.0.11?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "aff5eea3-040d-4fe2-8ab3-208cb7c987db",
+      "type": "library",
+      "name": "at",
+      "version": "3.1.23-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/at@3.1.23-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0e4177b1-cd94-4b5f-b3e1-80b023086529",
+      "type": "library",
+      "name": "base-files",
+      "version": "11ubuntu5.8",
+      "purl": "pkg:deb/ubuntu/base-files@11ubuntu5.8?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "524a2adb-b344-403e-9703-d8b40ac0b6cd",
+      "type": "library",
+      "name": "base-passwd",
+      "version": "3.5.47",
+      "purl": "pkg:deb/ubuntu/base-passwd@3.5.47?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "123c5e9e-a721-4721-bdc2-04d18884bf14",
+      "type": "library",
+      "name": "bash",
+      "version": "5.0-6ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/bash@5.0-6ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d0c4791d-8a0b-4b54-a0ee-d5a22c5e4851",
+      "type": "library",
+      "name": "bash-completion",
+      "version": "1:2.10-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/bash-completion@1%3A2.10-1ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cecb6fde-acfb-47b2-af44-a8daaf212441",
+      "type": "library",
+      "name": "bc",
+      "version": "1.07.1-2build1",
+      "purl": "pkg:deb/ubuntu/bc@1.07.1-2build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bca0025a-512d-4809-814c-89ec54a930e2",
+      "type": "library",
+      "name": "bcache-tools",
+      "version": "1.0.8-3ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/bcache-tools@1.0.8-3ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "476644a6-59f7-448f-bd24-efb2f29046e5",
+      "type": "library",
+      "name": "bind9-dnsutils",
+      "version": "1:9.18.30-0ubuntu0.20.04.2",
+      "purl": "pkg:deb/ubuntu/bind9-dnsutils@1%3A9.18.30-0ubuntu0.20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9d8990c4-e622-4a9f-b404-77cf0b4e0df6",
+      "type": "library",
+      "name": "bind9-host",
+      "version": "1:9.18.30-0ubuntu0.20.04.2",
+      "purl": "pkg:deb/ubuntu/bind9-host@1%3A9.18.30-0ubuntu0.20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "216c3473-5c3c-4547-b9cb-e904f7d972f2",
+      "type": "library",
+      "name": "bind9-libs",
+      "version": "1:9.18.30-0ubuntu0.20.04.2",
+      "purl": "pkg:deb/ubuntu/bind9-libs@1%3A9.18.30-0ubuntu0.20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2041ef70-2fc8-4ade-9551-4ac404aaaf01",
+      "type": "library",
+      "name": "bolt",
+      "version": "0.9.1-2~ubuntu20.04.2",
+      "purl": "pkg:deb/ubuntu/bolt@0.9.1-2~ubuntu20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "52d6047a-28e5-4367-b060-36db38b296e8",
+      "type": "library",
+      "name": "bsdmainutils",
+      "version": "11.1.2ubuntu3",
+      "purl": "pkg:deb/ubuntu/bsdmainutils@11.1.2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3ea17be7-9ef2-4ca1-8b94-e795faff4cf7",
+      "type": "library",
+      "name": "bsdutils",
+      "version": "1:2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/bsdutils@1%3A2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5f410394-529b-4b8d-a0df-21a1431cc5a7",
+      "type": "library",
+      "name": "btrfs-progs",
+      "version": "5.4.1-2",
+      "purl": "pkg:deb/ubuntu/btrfs-progs@5.4.1-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4a77d3cc-b56d-4276-8e51-cdd610d889ea",
+      "type": "library",
+      "name": "busybox-initramfs",
+      "version": "1:1.30.1-4ubuntu6.5",
+      "purl": "pkg:deb/ubuntu/busybox-initramfs@1%3A1.30.1-4ubuntu6.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7280eddd-55b6-4103-81a5-c3087503b1f3",
+      "type": "library",
+      "name": "busybox-static",
+      "version": "1:1.30.1-4ubuntu6.5",
+      "purl": "pkg:deb/ubuntu/busybox-static@1%3A1.30.1-4ubuntu6.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "02246579-6865-4ae2-84a5-7c5709d9e3d0",
+      "type": "library",
+      "name": "byobu",
+      "version": "5.133-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/byobu@5.133-0ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5da2f9f0-c41c-4880-a295-8adcd1153354",
+      "type": "library",
+      "name": "bzip2",
+      "version": "1.0.8-2",
+      "purl": "pkg:deb/ubuntu/bzip2@1.0.8-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "27f36114-b63c-49fb-ab59-afa162319737",
+      "type": "library",
+      "name": "ca-certificates",
+      "version": "20240203~20.04.1",
+      "purl": "pkg:deb/ubuntu/ca-certificates@20240203~20.04.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6df9a3ff-3dc0-427f-b21a-c9ca7b73130b",
+      "type": "library",
+      "name": "cloud-guest-utils",
+      "version": "0.31-7-gd99b2d76-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/cloud-guest-utils@0.31-7-gd99b2d76-0ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "32f28c9a-df8b-407b-81bd-96074ac0a7fb",
+      "type": "library",
+      "name": "cloud-init",
+      "version": "24.4.1-0ubuntu0~20.04.3",
+      "purl": "pkg:deb/ubuntu/cloud-init@24.4.1-0ubuntu0~20.04.3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b4d88a9a-8c00-4a61-b97d-0c0c926e6cf9",
+      "type": "library",
+      "name": "cloud-initramfs-copymods",
+      "version": "0.45ubuntu2",
+      "purl": "pkg:deb/ubuntu/cloud-initramfs-copymods@0.45ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2484050e-7e26-420a-adc6-cec53e4e6951",
+      "type": "library",
+      "name": "cloud-initramfs-dyn-netconf",
+      "version": "0.45ubuntu2",
+      "purl": "pkg:deb/ubuntu/cloud-initramfs-dyn-netconf@0.45ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bc698f98-3c46-4bd2-bb31-c3202957d32a",
+      "type": "library",
+      "name": "cnspec",
+      "version": "13.2.0",
+      "purl": "pkg:deb/ubuntu/cnspec@13.2.0?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6484516e-93d1-4cfa-8055-4f44470b489d",
+      "type": "library",
+      "name": "command-not-found",
+      "version": "20.04.6",
+      "purl": "pkg:deb/ubuntu/command-not-found@20.04.6?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c41af376-b969-422c-9c46-3932d32c937e",
+      "type": "library",
+      "name": "console-setup",
+      "version": "1.194ubuntu3",
+      "purl": "pkg:deb/ubuntu/console-setup@1.194ubuntu3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c03bc867-8c09-4f1c-9fb5-41aeacfae995",
+      "type": "library",
+      "name": "console-setup-linux",
+      "version": "1.194ubuntu3",
+      "purl": "pkg:deb/ubuntu/console-setup-linux@1.194ubuntu3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3a71fc9c-37a3-43f5-a556-7616b2537968",
+      "type": "library",
+      "name": "coreutils",
+      "version": "8.30-3ubuntu2",
+      "purl": "pkg:deb/ubuntu/coreutils@8.30-3ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4572fb5d-cbc6-4c16-a07e-893f70f7e02f",
+      "type": "library",
+      "name": "cpio",
+      "version": "2.13+dfsg-2ubuntu0.4",
+      "purl": "pkg:deb/ubuntu/cpio@2.13%2Bdfsg-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5d457d4a-62ed-43d3-b71d-500605a1bc54",
+      "type": "library",
+      "name": "cron",
+      "version": "3.0pl1-136ubuntu1",
+      "purl": "pkg:deb/ubuntu/cron@3.0pl1-136ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fc0104bc-ddd1-4c9f-ac8a-0fdae593f127",
+      "type": "library",
+      "name": "cryptsetup",
+      "version": "2:2.2.2-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/cryptsetup@2%3A2.2.2-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f472e113-f28f-45cb-a7aa-f8cfe938ae00",
+      "type": "library",
+      "name": "cryptsetup-bin",
+      "version": "2:2.2.2-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/cryptsetup-bin@2%3A2.2.2-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ffcc8810-79bd-47bc-a538-4d8027990f71",
+      "type": "library",
+      "name": "cryptsetup-initramfs",
+      "version": "2:2.2.2-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/cryptsetup-initramfs@2%3A2.2.2-3ubuntu2.5?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "305be1f8-8a38-4435-a8e2-3da830bff477",
+      "type": "library",
+      "name": "cryptsetup-run",
+      "version": "2:2.2.2-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/cryptsetup-run@2%3A2.2.2-3ubuntu2.5?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2014e331-9a61-4b3a-950b-afd3dc2952f0",
+      "type": "library",
+      "name": "curl",
+      "version": "7.68.0-1ubuntu2.25",
+      "purl": "pkg:deb/ubuntu/curl@7.68.0-1ubuntu2.25?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "23697c4e-cc53-4f90-bd57-00b1ddfae32a",
+      "type": "library",
+      "name": "dash",
+      "version": "0.5.10.2-6",
+      "purl": "pkg:deb/ubuntu/dash@0.5.10.2-6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8491a0c3-3337-43f4-8728-55c7a7707637",
+      "type": "library",
+      "name": "dbus",
+      "version": "1.12.16-2ubuntu2.3",
+      "purl": "pkg:deb/ubuntu/dbus@1.12.16-2ubuntu2.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5075659c-6967-4913-ab01-e9038c985079",
+      "type": "library",
+      "name": "dbus-user-session",
+      "version": "1.12.16-2ubuntu2.3",
+      "purl": "pkg:deb/ubuntu/dbus-user-session@1.12.16-2ubuntu2.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "79ebf636-634b-4227-bb95-3938067676a2",
+      "type": "library",
+      "name": "dconf-gsettings-backend",
+      "version": "0.36.0-1",
+      "purl": "pkg:deb/ubuntu/dconf-gsettings-backend@0.36.0-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9ae74903-223b-47dc-ae69-ac1764b2ed07",
+      "type": "library",
+      "name": "dconf-service",
+      "version": "0.36.0-1",
+      "purl": "pkg:deb/ubuntu/dconf-service@0.36.0-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3fba881b-9ad5-4113-830a-772ca328bd89",
+      "type": "library",
+      "name": "debconf",
+      "version": "1.5.73",
+      "purl": "pkg:deb/ubuntu/debconf@1.5.73?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0a46155d-c8e4-4e89-beb5-df5a2e2b1e24",
+      "type": "library",
+      "name": "debconf-i18n",
+      "version": "1.5.73",
+      "purl": "pkg:deb/ubuntu/debconf-i18n@1.5.73?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "12c1db37-00bf-4cf8-999e-cff177aa65bf",
+      "type": "library",
+      "name": "debianutils",
+      "version": "4.9.1",
+      "purl": "pkg:deb/ubuntu/debianutils@4.9.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1cfaacea-7a3a-47fe-9cb7-e19b47d10a6e",
+      "type": "library",
+      "name": "diffutils",
+      "version": "1:3.7-3",
+      "purl": "pkg:deb/ubuntu/diffutils@1%3A3.7-3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "842876c5-a98b-472c-8710-ba8f3d5687c2",
+      "type": "library",
+      "name": "dirmngr",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/dirmngr@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "052d2d5f-a721-497c-bc20-b543c99b5e6a",
+      "type": "library",
+      "name": "distro-info",
+      "version": "0.23ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/distro-info@0.23ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eace354d-0032-49f7-9a0c-1108f5ac16be",
+      "type": "library",
+      "name": "distro-info-data",
+      "version": "0.43ubuntu1.18",
+      "purl": "pkg:deb/ubuntu/distro-info-data@0.43ubuntu1.18?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "420183e9-5c00-4866-9367-305f6a209f34",
+      "type": "library",
+      "name": "dmeventd",
+      "version": "2:1.02.167-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/dmeventd@2%3A1.02.167-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fcf78383-4bf4-430b-a9ac-8e8f40f1ce95",
+      "type": "library",
+      "name": "dmidecode",
+      "version": "3.2-3",
+      "purl": "pkg:deb/ubuntu/dmidecode@3.2-3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8802a413-5824-4ac9-a6d6-a26e86d06783",
+      "type": "library",
+      "name": "dmsetup",
+      "version": "2:1.02.167-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/dmsetup@2%3A1.02.167-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c165fcb3-36da-4333-a84b-9ff2bc0fc15f",
+      "type": "library",
+      "name": "dosfstools",
+      "version": "4.1-2",
+      "purl": "pkg:deb/ubuntu/dosfstools@4.1-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9f450b42-6a2d-4649-aad9-15c6009f7feb",
+      "type": "library",
+      "name": "dpkg",
+      "version": "1.19.7ubuntu3.2",
+      "purl": "pkg:deb/ubuntu/dpkg@1.19.7ubuntu3.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "83191536-2c35-4faa-b1ec-6663671662bb",
+      "type": "library",
+      "name": "e2fsprogs",
+      "version": "1.45.5-2ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/e2fsprogs@1.45.5-2ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0bf674ee-deaf-45fb-a7dc-8a57ddf02ad5",
+      "type": "library",
+      "name": "eatmydata",
+      "version": "105-7",
+      "purl": "pkg:deb/ubuntu/eatmydata@105-7?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a0a60945-54de-4fc2-9829-c66b613f1257",
+      "type": "library",
+      "name": "ec2-hibinit-agent",
+      "version": "1.0.0-0ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/ec2-hibinit-agent@1.0.0-0ubuntu9.6?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6da6e000-ff5c-43c7-86bd-4026243ddf46",
+      "type": "library",
+      "name": "ec2-instance-connect",
+      "version": "1.1.12+dfsg1-0ubuntu3.20.04.1",
+      "purl": "pkg:deb/ubuntu/ec2-instance-connect@1.1.12%2Bdfsg1-0ubuntu3.20.04.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e5d248ba-3e10-412e-bbcc-7a4c9b4a4c8d",
+      "type": "library",
+      "name": "ed",
+      "version": "1.16-1",
+      "purl": "pkg:deb/ubuntu/ed@1.16-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "afc49fa5-1aaf-4a17-8ca7-82697a7f4eb4",
+      "type": "library",
+      "name": "efibootmgr",
+      "version": "17-1",
+      "purl": "pkg:deb/ubuntu/efibootmgr@17-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c23fc622-650d-4b54-9bbb-e4a42b7960da",
+      "type": "library",
+      "name": "eject",
+      "version": "2.1.5+deb1+cvs20081104-14",
+      "purl": "pkg:deb/ubuntu/eject@2.1.5%2Bdeb1%2Bcvs20081104-14?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5e718e0e-3190-49a2-a44b-a8eac2a4ce32",
+      "type": "library",
+      "name": "ethtool",
+      "version": "1:5.4-1",
+      "purl": "pkg:deb/ubuntu/ethtool@1%3A5.4-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "aee39084-5cbc-4ef3-9c60-c16adc090f5b",
+      "type": "library",
+      "name": "fdisk",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/fdisk@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c3b0c98d-2ff2-4eb6-9c2e-a5dd0924be83",
+      "type": "library",
+      "name": "file",
+      "version": "1:5.38-4",
+      "purl": "pkg:deb/ubuntu/file@1%3A5.38-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1d91d76f-5504-4950-827c-e5acda667068",
+      "type": "library",
+      "name": "finalrd",
+      "version": "6~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/finalrd@6~ubuntu20.04.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0e4e5836-a94e-436e-a56a-7716a36e7776",
+      "type": "library",
+      "name": "findutils",
+      "version": "4.7.0-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/findutils@4.7.0-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "37d46a2d-1273-4b21-aab2-0869690d238e",
+      "type": "library",
+      "name": "fontconfig-config",
+      "version": "2.13.1-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/fontconfig-config@2.13.1-2ubuntu3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4192dc3d-1ab7-4f75-8373-f95f188ee5ce",
+      "type": "library",
+      "name": "fonts-dejavu-core",
+      "version": "2.37-1",
+      "purl": "pkg:deb/ubuntu/fonts-dejavu-core@2.37-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "31b04dc7-d5be-4f12-8807-766bdeb49f14",
+      "type": "library",
+      "name": "fonts-ubuntu-console",
+      "version": "0.83-4ubuntu1",
+      "purl": "pkg:deb/ubuntu/fonts-ubuntu-console@0.83-4ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b6ac7c31-016c-48d9-8866-a9846d53e760",
+      "type": "library",
+      "name": "friendly-recovery",
+      "version": "0.2.41ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/friendly-recovery@0.2.41ubuntu0.20.04.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d9b3dd45-f6a9-4d76-9f86-35fca2b3339d",
+      "type": "library",
+      "name": "ftp",
+      "version": "0.17-34.1",
+      "purl": "pkg:deb/ubuntu/ftp@0.17-34.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d5fbe8fe-0db4-411e-a650-ec99af62706c",
+      "type": "library",
+      "name": "fuse3",
+      "version": "3.9.0-2",
+      "purl": "pkg:deb/ubuntu/fuse3@3.9.0-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c3c8c509-fab6-409b-915f-b3be12e80c8f",
+      "type": "library",
+      "name": "fwupd",
+      "version": "1.7.9-1~20.04.3",
+      "purl": "pkg:deb/ubuntu/fwupd@1.7.9-1~20.04.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "05608c6e-c991-4ed0-8970-a47d7db3c15e",
+      "type": "library",
+      "name": "fwupd-signed",
+      "version": "1.51.1~20.04.1+1.4-0ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/fwupd-signed@1.51.1~20.04.1%2B1.4-0ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2ec54aaf-680b-4cc2-827c-e3888cc1be19",
+      "type": "library",
+      "name": "gawk",
+      "version": "1:5.0.1+dfsg-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/gawk@1%3A5.0.1%2Bdfsg-1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a778b9d9-a98b-4cd1-8df0-9dd01317769b",
+      "type": "library",
+      "name": "gcc-10-base",
+      "version": "10.5.0-1ubuntu1~20.04",
+      "purl": "pkg:deb/ubuntu/gcc-10-base@10.5.0-1ubuntu1~20.04?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2d0a7db4-93b9-4c0b-9ffb-d701d045cd6d",
+      "type": "library",
+      "name": "gdisk",
+      "version": "1.0.5-1",
+      "purl": "pkg:deb/ubuntu/gdisk@1.0.5-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9e6b6ba7-efcb-4872-99cf-e4e99495872c",
+      "type": "library",
+      "name": "gettext-base",
+      "version": "0.19.8.1-10build1",
+      "purl": "pkg:deb/ubuntu/gettext-base@0.19.8.1-10build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2e950f05-22c1-470c-9b7a-69fe71b51b52",
+      "type": "library",
+      "name": "gir1.2-glib-2.0",
+      "version": "1.64.1-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/gir1.2-glib-2.0@1.64.1-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ff3c07e4-5a91-4345-b43a-f5762eb10252",
+      "type": "library",
+      "name": "gir1.2-packagekitglib-1.0",
+      "version": "1.1.13-2ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/gir1.2-packagekitglib-1.0@1.1.13-2ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "263c8f65-6b83-4bad-8edd-99a16a135612",
+      "type": "library",
+      "name": "git",
+      "version": "1:2.25.1-1ubuntu3.14",
+      "purl": "pkg:deb/ubuntu/git@1%3A2.25.1-1ubuntu3.14?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9645524b-b8d1-423e-ab1a-aa748160f92b",
+      "type": "library",
+      "name": "git-man",
+      "version": "1:2.25.1-1ubuntu3.14",
+      "purl": "pkg:deb/ubuntu/git-man@1%3A2.25.1-1ubuntu3.14?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d8efef45-24d7-4291-aed1-01addbea31a5",
+      "type": "library",
+      "name": "glib-networking",
+      "version": "2.64.2-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/glib-networking@2.64.2-1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7b6fe5f5-6226-46c1-ae42-e191e3263ef5",
+      "type": "library",
+      "name": "glib-networking-common",
+      "version": "2.64.2-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/glib-networking-common@2.64.2-1ubuntu0.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eb54a27b-bdb5-4263-b1ef-2e89e34a21af",
+      "type": "library",
+      "name": "glib-networking-services",
+      "version": "2.64.2-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/glib-networking-services@2.64.2-1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d605c41c-67be-4d2e-bdc8-3a45127b2a79",
+      "type": "library",
+      "name": "gnupg",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gnupg@2.2.19-3ubuntu2.5?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bac6971f-55e5-4632-acae-c8ce303555a6",
+      "type": "library",
+      "name": "gnupg-l10n",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gnupg-l10n@2.2.19-3ubuntu2.5?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7136d87e-0741-43b6-8291-3e1ebf22e013",
+      "type": "library",
+      "name": "gnupg-utils",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gnupg-utils@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fcfbdf03-82a8-4ea0-8e79-1ba89245c373",
+      "type": "library",
+      "name": "gpg",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gpg@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5fa29077-5ca7-46e6-af00-c6d353ab529f",
+      "type": "library",
+      "name": "gpg-agent",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gpg-agent@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7da828c2-1dc9-49a2-a346-1eee31aa8077",
+      "type": "library",
+      "name": "gpg-wks-client",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gpg-wks-client@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c3c88ef4-fec1-41ca-8db9-f90cc00e3599",
+      "type": "library",
+      "name": "gpg-wks-server",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gpg-wks-server@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9fa74afb-a08e-4708-9648-27eedf91f3e7",
+      "type": "library",
+      "name": "gpgconf",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gpgconf@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d8f966f3-5562-468a-9a3a-c96d86bb58b1",
+      "type": "library",
+      "name": "gpgsm",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gpgsm@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ca7ae166-760a-4e63-9f11-297615149b6a",
+      "type": "library",
+      "name": "gpgv",
+      "version": "2.2.19-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/gpgv@2.2.19-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fcbb2528-7115-4373-8c43-64f57d0a1349",
+      "type": "library",
+      "name": "grep",
+      "version": "3.4-1",
+      "purl": "pkg:deb/ubuntu/grep@3.4-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "073e7348-9e04-4fcd-859f-3f5f4b0144d6",
+      "type": "library",
+      "name": "groff-base",
+      "version": "1.22.4-4build1",
+      "purl": "pkg:deb/ubuntu/groff-base@1.22.4-4build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "159e435e-46b0-43f7-8f00-ae53f9d5c6ad",
+      "type": "library",
+      "name": "grub-common",
+      "version": "2.04-1ubuntu26.17",
+      "purl": "pkg:deb/ubuntu/grub-common@2.04-1ubuntu26.17?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0efd1e3b-4e9a-4403-9cc4-02e983532495",
+      "type": "library",
+      "name": "grub-efi-amd64-bin",
+      "version": "2.06-2ubuntu14.8",
+      "purl": "pkg:deb/ubuntu/grub-efi-amd64-bin@2.06-2ubuntu14.8?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "233073e2-ac31-46ee-93fb-65c973f134c8",
+      "type": "library",
+      "name": "grub-efi-amd64-signed",
+      "version": "1.187.12~20.04+2.06-2ubuntu14.8",
+      "purl": "pkg:deb/ubuntu/grub-efi-amd64-signed@1.187.12~20.04%2B2.06-2ubuntu14.8?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4ec43a07-99bf-4c54-8aae-59217eb99f26",
+      "type": "library",
+      "name": "grub-gfxpayload-lists",
+      "version": "0.7",
+      "purl": "pkg:deb/ubuntu/grub-gfxpayload-lists@0.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "858e6eb0-5762-4c53-884c-e6812c827499",
+      "type": "library",
+      "name": "grub-pc",
+      "version": "2.04-1ubuntu26.17",
+      "purl": "pkg:deb/ubuntu/grub-pc@2.04-1ubuntu26.17?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7a42743a-acf9-4a39-bea7-a540f894b97a",
+      "type": "library",
+      "name": "grub-pc-bin",
+      "version": "2.04-1ubuntu26.17",
+      "purl": "pkg:deb/ubuntu/grub-pc-bin@2.04-1ubuntu26.17?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "694c6bb5-29e6-4f67-9892-75432f56d24c",
+      "type": "library",
+      "name": "grub2-common",
+      "version": "2.04-1ubuntu26.17",
+      "purl": "pkg:deb/ubuntu/grub2-common@2.04-1ubuntu26.17?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "885d1231-1c20-420f-ba0f-b0ce5db26fc3",
+      "type": "library",
+      "name": "gsettings-desktop-schemas",
+      "version": "3.36.0-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/gsettings-desktop-schemas@3.36.0-1ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e4f2ec4b-f0a3-4853-bfe6-6e660fce8203",
+      "type": "library",
+      "name": "gzip",
+      "version": "1.10-0ubuntu4.1",
+      "purl": "pkg:deb/ubuntu/gzip@1.10-0ubuntu4.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f5dc7c80-c430-45d1-963d-51df1916bc06",
+      "type": "library",
+      "name": "hdparm",
+      "version": "9.58+ds-4",
+      "purl": "pkg:deb/ubuntu/hdparm@9.58%2Bds-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5618dc19-03f2-4990-962c-34dc671db4bf",
+      "type": "library",
+      "name": "hibagent",
+      "version": "1.0.1-0ubuntu1.20.04.2",
+      "purl": "pkg:deb/ubuntu/hibagent@1.0.1-0ubuntu1.20.04.2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a748d388-b31c-47bb-b748-331c6151f1bb",
+      "type": "library",
+      "name": "hostname",
+      "version": "3.23",
+      "purl": "pkg:deb/ubuntu/hostname@3.23?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "81209011-989e-4bb6-af9a-4253a63f148c",
+      "type": "library",
+      "name": "htop",
+      "version": "2.2.0-2build1",
+      "purl": "pkg:deb/ubuntu/htop@2.2.0-2build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d49fc942-9d9b-4cb8-8a0e-bcfb368fbcb9",
+      "type": "library",
+      "name": "info",
+      "version": "6.7.0.dfsg.2-5",
+      "purl": "pkg:deb/ubuntu/info@6.7.0.dfsg.2-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fb2cbbab-7692-4f27-a683-96deb5e9b6ea",
+      "type": "library",
+      "name": "init",
+      "version": "1.57",
+      "purl": "pkg:deb/ubuntu/init@1.57?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "991fddcc-29a9-4494-bb69-a7846defba4e",
+      "type": "library",
+      "name": "init-system-helpers",
+      "version": "1.57",
+      "purl": "pkg:deb/ubuntu/init-system-helpers@1.57?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "659f9b50-c741-4a55-8f80-903f9ae1f3f6",
+      "type": "library",
+      "name": "initramfs-tools",
+      "version": "0.136ubuntu6.8",
+      "purl": "pkg:deb/ubuntu/initramfs-tools@0.136ubuntu6.8?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e1b5ed59-3653-4f0e-8c73-bfa59d100a07",
+      "type": "library",
+      "name": "initramfs-tools-bin",
+      "version": "0.136ubuntu6.8",
+      "purl": "pkg:deb/ubuntu/initramfs-tools-bin@0.136ubuntu6.8?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "10b0f2c2-976e-4fd3-9fb9-8cfeff10cb2c",
+      "type": "library",
+      "name": "initramfs-tools-core",
+      "version": "0.136ubuntu6.8",
+      "purl": "pkg:deb/ubuntu/initramfs-tools-core@0.136ubuntu6.8?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "979402f6-32f3-4090-9eae-5095be3cceb9",
+      "type": "library",
+      "name": "install-info",
+      "version": "6.7.0.dfsg.2-5",
+      "purl": "pkg:deb/ubuntu/install-info@6.7.0.dfsg.2-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5ade4f0d-cdf8-4c55-a185-1261d8eb2726",
+      "type": "library",
+      "name": "intel-microcode",
+      "version": "3.20250512.0ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/intel-microcode@3.20250512.0ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b415fa33-3e71-446f-9541-9b8c21db6d11",
+      "type": "library",
+      "name": "iproute2",
+      "version": "5.5.0-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/iproute2@5.5.0-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8dc57a6e-92be-45dc-9f00-20a3149a26b3",
+      "type": "library",
+      "name": "iptables",
+      "version": "1.8.4-3ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/iptables@1.8.4-3ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5f230649-f1ab-4a39-83f7-ff7a6f6af2a5",
+      "type": "library",
+      "name": "iputils-ping",
+      "version": "3:20190709-3ubuntu1",
+      "purl": "pkg:deb/ubuntu/iputils-ping@3%3A20190709-3ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8e20db3c-515c-4408-9218-471e2b6b2b9e",
+      "type": "library",
+      "name": "iputils-tracepath",
+      "version": "3:20190709-3ubuntu1",
+      "purl": "pkg:deb/ubuntu/iputils-tracepath@3%3A20190709-3ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d208191f-66c4-4f93-8ac1-e78a89056095",
+      "type": "library",
+      "name": "irqbalance",
+      "version": "1.6.0-3ubuntu1",
+      "purl": "pkg:deb/ubuntu/irqbalance@1.6.0-3ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6cd204b6-6775-47a3-8289-29497e4e7c4d",
+      "type": "library",
+      "name": "isc-dhcp-client",
+      "version": "4.4.1-2.1ubuntu5.20.04.5",
+      "purl": "pkg:deb/ubuntu/isc-dhcp-client@4.4.1-2.1ubuntu5.20.04.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2f9625ef-2d61-4d3f-92a0-9ba5dd983454",
+      "type": "library",
+      "name": "isc-dhcp-common",
+      "version": "4.4.1-2.1ubuntu5.20.04.5",
+      "purl": "pkg:deb/ubuntu/isc-dhcp-common@4.4.1-2.1ubuntu5.20.04.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "49a409dd-8fcc-4770-a073-5c5632a58737",
+      "type": "library",
+      "name": "iso-codes",
+      "version": "4.4-1",
+      "purl": "pkg:deb/ubuntu/iso-codes@4.4-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bf62a7e1-a201-402b-8993-7573b3c2ca4e",
+      "type": "library",
+      "name": "iucode-tool",
+      "version": "2.3.1-1",
+      "purl": "pkg:deb/ubuntu/iucode-tool@2.3.1-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "28fabe8c-1491-4c1c-8239-6fc45731f1bc",
+      "type": "library",
+      "name": "kbd",
+      "version": "2.0.4-4ubuntu2",
+      "purl": "pkg:deb/ubuntu/kbd@2.0.4-4ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "55593c18-d56a-4b19-9f73-d489218e15b4",
+      "type": "library",
+      "name": "keyboard-configuration",
+      "version": "1.194ubuntu3",
+      "purl": "pkg:deb/ubuntu/keyboard-configuration@1.194ubuntu3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "abf0936d-59b3-4539-9939-fa2d788935b1",
+      "type": "library",
+      "name": "klibc-utils",
+      "version": "2.0.7-1ubuntu5.2",
+      "purl": "pkg:deb/ubuntu/klibc-utils@2.0.7-1ubuntu5.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "80525c41-7d43-4257-a6c9-46e271ad1f1b",
+      "type": "library",
+      "name": "kmod",
+      "version": "27-1ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/kmod@27-1ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9ef2b467-b947-4f15-b9bf-e4e31a480475",
+      "type": "library",
+      "name": "kpartx",
+      "version": "0.8.3-1ubuntu2.4",
+      "purl": "pkg:deb/ubuntu/kpartx@0.8.3-1ubuntu2.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0e3431d2-47db-41fe-b757-4c335dcb16af",
+      "type": "library",
+      "name": "krb5-locales",
+      "version": "1.17-6ubuntu4.11",
+      "purl": "pkg:deb/ubuntu/krb5-locales@1.17-6ubuntu4.11?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f1d5eea0-bc2d-4881-b83f-72c8b5e1ea04",
+      "type": "library",
+      "name": "landscape-common",
+      "version": "23.02-0ubuntu1~20.04.4",
+      "purl": "pkg:deb/ubuntu/landscape-common@23.02-0ubuntu1~20.04.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7ca05f8f-6d95-4010-ad28-44252d9f983b",
+      "type": "library",
+      "name": "language-selector-common",
+      "version": "0.204.2",
+      "purl": "pkg:deb/ubuntu/language-selector-common@0.204.2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a437ee98-8ae4-48e6-9a9f-9d620020fb21",
+      "type": "library",
+      "name": "less",
+      "version": "551-1ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/less@551-1ubuntu0.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0934acd0-138a-4459-a896-4d9c98144356",
+      "type": "library",
+      "name": "libaccountsservice0",
+      "version": "0.6.55-0ubuntu12~20.04.7",
+      "purl": "pkg:deb/ubuntu/libaccountsservice0@0.6.55-0ubuntu12~20.04.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "dbd3da2d-d4b3-4cb9-a1c1-635a2012dfab",
+      "type": "library",
+      "name": "libacl1",
+      "version": "2.2.53-6",
+      "purl": "pkg:deb/ubuntu/libacl1@2.2.53-6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3efc8cfe-c89f-42b7-a4eb-063983328e51",
+      "type": "library",
+      "name": "libaio1",
+      "version": "0.3.112-5",
+      "purl": "pkg:deb/ubuntu/libaio1@0.3.112-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f2e400d0-5bfd-49d7-956d-9df8a449418e",
+      "type": "library",
+      "name": "libapparmor1",
+      "version": "2.13.3-7ubuntu5.4",
+      "purl": "pkg:deb/ubuntu/libapparmor1@2.13.3-7ubuntu5.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "da332bda-67f3-4b3a-84e1-a323e6c29efb",
+      "type": "library",
+      "name": "libappstream4",
+      "version": "0.12.10-2",
+      "purl": "pkg:deb/ubuntu/libappstream4@0.12.10-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c8fa9121-e873-4699-9cdc-5de1e9d78e67",
+      "type": "library",
+      "name": "libapt-pkg6.0",
+      "version": "2.0.11",
+      "purl": "pkg:deb/ubuntu/libapt-pkg6.0@2.0.11?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2b79ff12-73c3-4c71-8161-dfdb6d96edee",
+      "type": "library",
+      "name": "libarchive13",
+      "version": "3.4.0-2ubuntu1.5",
+      "purl": "pkg:deb/ubuntu/libarchive13@3.4.0-2ubuntu1.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "77a719ff-4a05-47f2-912d-5fc969001f33",
+      "type": "library",
+      "name": "libargon2-1",
+      "version": "0~20171227-0.2",
+      "purl": "pkg:deb/ubuntu/libargon2-1@0~20171227-0.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b2998c17-006d-4261-8dec-776c003acfd1",
+      "type": "library",
+      "name": "libasn1-8-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libasn1-8-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "05474823-76c1-4b0b-a501-75df5e97f28f",
+      "type": "library",
+      "name": "libasound2",
+      "version": "1.2.2-2.1ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/libasound2@1.2.2-2.1ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e5942bfe-4728-4762-ab9e-a685f132552a",
+      "type": "library",
+      "name": "libasound2-data",
+      "version": "1.2.2-2.1ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/libasound2-data@1.2.2-2.1ubuntu2.5?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1b9d3591-079c-4a21-9c24-4463e9096cfc",
+      "type": "library",
+      "name": "libassuan0",
+      "version": "2.5.3-7ubuntu2",
+      "purl": "pkg:deb/ubuntu/libassuan0@2.5.3-7ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fd4c4d12-33aa-4594-8c68-933f3b05fe32",
+      "type": "library",
+      "name": "libatasmart4",
+      "version": "0.19-5",
+      "purl": "pkg:deb/ubuntu/libatasmart4@0.19-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "85e2143c-3048-4bdb-b8f2-255da2851a60",
+      "type": "library",
+      "name": "libatm1",
+      "version": "1:2.5.1-4",
+      "purl": "pkg:deb/ubuntu/libatm1@1%3A2.5.1-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eda1f123-437c-4575-b7b2-fb5f7d91023e",
+      "type": "library",
+      "name": "libattr1",
+      "version": "1:2.4.48-5",
+      "purl": "pkg:deb/ubuntu/libattr1@1%3A2.4.48-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "097c32b6-cb0a-4f58-a34c-9c75c35241da",
+      "type": "library",
+      "name": "libaudit-common",
+      "version": "1:2.8.5-2ubuntu6",
+      "purl": "pkg:deb/ubuntu/libaudit-common@1%3A2.8.5-2ubuntu6?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f17f820c-2de2-4189-9c68-3a5faf416833",
+      "type": "library",
+      "name": "libaudit1",
+      "version": "1:2.8.5-2ubuntu6",
+      "purl": "pkg:deb/ubuntu/libaudit1@1%3A2.8.5-2ubuntu6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "060ff98d-8385-46f5-9074-363ab391477c",
+      "type": "library",
+      "name": "libblkid1",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/libblkid1@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "056da95f-4192-4358-9479-59693ba7190f",
+      "type": "library",
+      "name": "libblockdev-crypto2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev-crypto2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4c257f8d-c780-427d-9f61-28e17e9c1ce7",
+      "type": "library",
+      "name": "libblockdev-fs2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev-fs2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0a5691e7-d4b0-4b8a-a20b-076978abee45",
+      "type": "library",
+      "name": "libblockdev-loop2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev-loop2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "955ebc6d-8db9-4498-9aa2-f75c7a8dbdc9",
+      "type": "library",
+      "name": "libblockdev-part-err2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev-part-err2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d3dbc403-b90e-401a-adb2-a7e311f13b6f",
+      "type": "library",
+      "name": "libblockdev-part2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev-part2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "914e3842-fbb4-4b42-a052-080ba032adc2",
+      "type": "library",
+      "name": "libblockdev-swap2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev-swap2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d2a938b7-c72b-4ed7-bd6c-cc92804cc8d6",
+      "type": "library",
+      "name": "libblockdev-utils2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev-utils2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2d5fcee5-589a-41e2-a263-c5343a0eccb2",
+      "type": "library",
+      "name": "libblockdev2",
+      "version": "2.23-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libblockdev2@2.23-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d789339b-d9e6-475a-b2a5-8356e1bf0d5f",
+      "type": "library",
+      "name": "libbrotli1",
+      "version": "1.0.7-6ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libbrotli1@1.0.7-6ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ab05e04c-ae7f-439c-8322-b62b56a13fa5",
+      "type": "library",
+      "name": "libbsd0",
+      "version": "0.10.0-1",
+      "purl": "pkg:deb/ubuntu/libbsd0@0.10.0-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "58f08ed5-2ae3-49d0-9a1f-d46b17af41a2",
+      "type": "library",
+      "name": "libbz2-1.0",
+      "version": "1.0.8-2",
+      "purl": "pkg:deb/ubuntu/libbz2-1.0@1.0.8-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0626cddb-abea-48f8-912c-f63a849000cd",
+      "type": "library",
+      "name": "libc-bin",
+      "version": "2.31-0ubuntu9.18",
+      "purl": "pkg:deb/ubuntu/libc-bin@2.31-0ubuntu9.18?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "db4feccb-8554-47b7-ae58-6aa76f482f64",
+      "type": "library",
+      "name": "libc6",
+      "version": "2.31-0ubuntu9.18",
+      "purl": "pkg:deb/ubuntu/libc6@2.31-0ubuntu9.18?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "48725f4d-6ad5-4ef5-a585-fd9d67e6bc84",
+      "type": "library",
+      "name": "libcanberra0",
+      "version": "0.30-7ubuntu1",
+      "purl": "pkg:deb/ubuntu/libcanberra0@0.30-7ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "55b4d1f5-cf32-44ca-932d-200cdf7f65aa",
+      "type": "library",
+      "name": "libcap-ng0",
+      "version": "0.7.9-2.1build1",
+      "purl": "pkg:deb/ubuntu/libcap-ng0@0.7.9-2.1build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "56cb5669-611c-4fb6-95f5-293708aec678",
+      "type": "library",
+      "name": "libcap2",
+      "version": "1:2.32-1ubuntu0.2",
+      "purl": "pkg:deb/ubuntu/libcap2@1%3A2.32-1ubuntu0.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b9733315-6207-45cd-8d57-9cfb61c4b33d",
+      "type": "library",
+      "name": "libcap2-bin",
+      "version": "1:2.32-1ubuntu0.2",
+      "purl": "pkg:deb/ubuntu/libcap2-bin@1%3A2.32-1ubuntu0.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b42e6b4b-43bb-4b01-8545-7e73ae3b1901",
+      "type": "library",
+      "name": "libcbor0.6",
+      "version": "0.6.0-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/libcbor0.6@0.6.0-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "65da2425-4178-4fc6-a6b9-209793d10663",
+      "type": "library",
+      "name": "libcom-err2",
+      "version": "1.45.5-2ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/libcom-err2@1.45.5-2ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bdd86554-1226-4a54-8c9f-f678411c48ae",
+      "type": "library",
+      "name": "libcrypt1",
+      "version": "1:4.4.10-10ubuntu4",
+      "purl": "pkg:deb/ubuntu/libcrypt1@1%3A4.4.10-10ubuntu4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f0d86e11-f8ff-4d04-ba31-8f8efb7499c6",
+      "type": "library",
+      "name": "libcryptsetup12",
+      "version": "2:2.2.2-3ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/libcryptsetup12@2%3A2.2.2-3ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2c73ef4f-bab4-4460-b2f3-0a657fc6f0e1",
+      "type": "library",
+      "name": "libcurl3-gnutls",
+      "version": "7.68.0-1ubuntu2.25",
+      "purl": "pkg:deb/ubuntu/libcurl3-gnutls@7.68.0-1ubuntu2.25?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1fb035a6-3987-4229-a9db-33dcf7abbd8d",
+      "type": "library",
+      "name": "libcurl4",
+      "version": "7.68.0-1ubuntu2.25",
+      "purl": "pkg:deb/ubuntu/libcurl4@7.68.0-1ubuntu2.25?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f12698cc-05af-41e1-b447-9eaba4ecee8c",
+      "type": "library",
+      "name": "libdb5.3",
+      "version": "5.3.28+dfsg1-0.6ubuntu2",
+      "purl": "pkg:deb/ubuntu/libdb5.3@5.3.28%2Bdfsg1-0.6ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eb8c771b-cab8-4b47-9bfd-739679091a95",
+      "type": "library",
+      "name": "libdbus-1-3",
+      "version": "1.12.16-2ubuntu2.3",
+      "purl": "pkg:deb/ubuntu/libdbus-1-3@1.12.16-2ubuntu2.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "934b2ce2-a22c-48d6-835b-ac65a6e9185c",
+      "type": "library",
+      "name": "libdconf1",
+      "version": "0.36.0-1",
+      "purl": "pkg:deb/ubuntu/libdconf1@0.36.0-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0ddfd13f-2428-4dae-ab39-cc1ffaa5e326",
+      "type": "library",
+      "name": "libdebconfclient0",
+      "version": "0.251ubuntu1",
+      "purl": "pkg:deb/ubuntu/libdebconfclient0@0.251ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c617032b-ab67-43dc-9e29-5f9f4f0f9a1e",
+      "type": "library",
+      "name": "libdevmapper-event1.02.1",
+      "version": "2:1.02.167-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/libdevmapper-event1.02.1@2%3A1.02.167-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2af0ed8c-34e2-4c97-88e3-f5dff96d1ca5",
+      "type": "library",
+      "name": "libdevmapper1.02.1",
+      "version": "2:1.02.167-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/libdevmapper1.02.1@2%3A1.02.167-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "560de8a8-6448-4d9e-a4c8-31cacb930536",
+      "type": "library",
+      "name": "libdns-export1109",
+      "version": "1:9.11.16+dfsg-3~ubuntu1",
+      "purl": "pkg:deb/ubuntu/libdns-export1109@1%3A9.11.16%2Bdfsg-3~ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e2f01ea7-92d2-42b4-b91d-ec0945074ebc",
+      "type": "library",
+      "name": "libdrm-common",
+      "version": "2.4.107-8ubuntu1~20.04.2",
+      "purl": "pkg:deb/ubuntu/libdrm-common@2.4.107-8ubuntu1~20.04.2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7b19578c-88e2-4d52-afb5-769d44431ea0",
+      "type": "library",
+      "name": "libdrm2",
+      "version": "2.4.107-8ubuntu1~20.04.2",
+      "purl": "pkg:deb/ubuntu/libdrm2@2.4.107-8ubuntu1~20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "23b43680-db2c-4941-ba0c-bdc07d91c513",
+      "type": "library",
+      "name": "libeatmydata1",
+      "version": "105-7",
+      "purl": "pkg:deb/ubuntu/libeatmydata1@105-7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "759cdc98-5655-4683-b2c0-7646e2bb0b1e",
+      "type": "library",
+      "name": "libedit2",
+      "version": "3.1-20191231-1",
+      "purl": "pkg:deb/ubuntu/libedit2@3.1-20191231-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e4924c9e-99ea-4913-bed1-9428539c8d1e",
+      "type": "library",
+      "name": "libefiboot1",
+      "version": "37-2ubuntu2.2",
+      "purl": "pkg:deb/ubuntu/libefiboot1@37-2ubuntu2.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "89a8dfb6-e468-44a9-ab64-eb655f87261a",
+      "type": "library",
+      "name": "libefivar1",
+      "version": "37-2ubuntu2.2",
+      "purl": "pkg:deb/ubuntu/libefivar1@37-2ubuntu2.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0a3d6b04-21a4-48f3-99f3-1e27987c9053",
+      "type": "library",
+      "name": "libelf1",
+      "version": "0.176-1.1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libelf1@0.176-1.1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ffee59d5-3918-447c-bea3-0827e692c7f1",
+      "type": "library",
+      "name": "liberror-perl",
+      "version": "0.17029-1",
+      "purl": "pkg:deb/ubuntu/liberror-perl@0.17029-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bdd893b1-d4e9-43c9-b54a-a53644b2b6c8",
+      "type": "library",
+      "name": "libestr0",
+      "version": "0.1.10-2.1",
+      "purl": "pkg:deb/ubuntu/libestr0@0.1.10-2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3cf8d84e-cd50-4f52-b32f-2f6326d35433",
+      "type": "library",
+      "name": "libevent-2.1-7",
+      "version": "2.1.11-stable-1",
+      "purl": "pkg:deb/ubuntu/libevent-2.1-7@2.1.11-stable-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a9c97b72-731c-4175-a24b-ea3066b0d110",
+      "type": "library",
+      "name": "libexpat1",
+      "version": "2.2.9-1ubuntu0.8",
+      "purl": "pkg:deb/ubuntu/libexpat1@2.2.9-1ubuntu0.8?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2c38e39e-292d-4337-93c0-712eff1ad2ac",
+      "type": "library",
+      "name": "libext2fs2",
+      "version": "1.45.5-2ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/libext2fs2@1.45.5-2ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "adfc7d12-fdd1-47a1-92db-cbe3012d7f60",
+      "type": "library",
+      "name": "libfastjson4",
+      "version": "0.99.8-2",
+      "purl": "pkg:deb/ubuntu/libfastjson4@0.99.8-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7abf1666-d4c4-4ed0-beb2-bfea9d7ef803",
+      "type": "library",
+      "name": "libfdisk1",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/libfdisk1@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9d88d6fc-38f5-4c03-b208-c3bb6e9d9f82",
+      "type": "library",
+      "name": "libffi7",
+      "version": "3.3-4",
+      "purl": "pkg:deb/ubuntu/libffi7@3.3-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4a332599-dd55-4a5a-b603-91bafb0eef01",
+      "type": "library",
+      "name": "libfido2-1",
+      "version": "1.3.1-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/libfido2-1@1.3.1-1ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "535e844f-3caa-4fab-b28c-3e2ab4a324f4",
+      "type": "library",
+      "name": "libfl2",
+      "version": "2.6.4-6.2",
+      "purl": "pkg:deb/ubuntu/libfl2@2.6.4-6.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d9bd3580-71e4-433f-bce8-4f3ed095bc3a",
+      "type": "library",
+      "name": "libfontconfig1",
+      "version": "2.13.1-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/libfontconfig1@2.13.1-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "12212617-a493-49f8-b3b6-187aa4f6ec9f",
+      "type": "library",
+      "name": "libfreetype6",
+      "version": "2.10.1-2ubuntu0.4",
+      "purl": "pkg:deb/ubuntu/libfreetype6@2.10.1-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "73f3c7ba-70d2-4bf9-b048-52f5be265246",
+      "type": "library",
+      "name": "libfribidi0",
+      "version": "1.0.8-2ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libfribidi0@1.0.8-2ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3dc9b8a8-03e0-4877-ba1a-93274483f964",
+      "type": "library",
+      "name": "libfuse2",
+      "version": "2.9.9-3",
+      "purl": "pkg:deb/ubuntu/libfuse2@2.9.9-3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "aed7bf14-932a-44a1-8f47-0018731bf3c0",
+      "type": "library",
+      "name": "libfuse3-3",
+      "version": "3.9.0-2",
+      "purl": "pkg:deb/ubuntu/libfuse3-3@3.9.0-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "dd5ff4fa-f8f7-478c-b00f-4c1fa5a724e7",
+      "type": "library",
+      "name": "libfwupd2",
+      "version": "1.7.9-1~20.04.3",
+      "purl": "pkg:deb/ubuntu/libfwupd2@1.7.9-1~20.04.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "94ba5211-a420-4940-a8ac-2b301f1ff543",
+      "type": "library",
+      "name": "libfwupdplugin1",
+      "version": "1.5.11-0ubuntu1~20.04.2",
+      "purl": "pkg:deb/ubuntu/libfwupdplugin1@1.5.11-0ubuntu1~20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "86db3999-55ad-4e77-8caf-5a447d9d2ff4",
+      "type": "library",
+      "name": "libfwupdplugin5",
+      "version": "1.7.9-1~20.04.3",
+      "purl": "pkg:deb/ubuntu/libfwupdplugin5@1.7.9-1~20.04.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9a39197f-33d0-459a-ac16-c30d67e3d237",
+      "type": "library",
+      "name": "libgcab-1.0-0",
+      "version": "1.4-1",
+      "purl": "pkg:deb/ubuntu/libgcab-1.0-0@1.4-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3bce8fcc-a7e1-4d86-9910-fa880c84cda4",
+      "type": "library",
+      "name": "libgcc-s1",
+      "version": "10.5.0-1ubuntu1~20.04",
+      "purl": "pkg:deb/ubuntu/libgcc-s1@10.5.0-1ubuntu1~20.04?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "17ca7b74-1088-4f3a-a8e8-34ef2ef06440",
+      "type": "library",
+      "name": "libgcrypt20",
+      "version": "1.8.5-5ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/libgcrypt20@1.8.5-5ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "aa4d62fc-2109-4ebd-8e39-9191000edca1",
+      "type": "library",
+      "name": "libgd3",
+      "version": "2.2.5-5.2ubuntu2.4",
+      "purl": "pkg:deb/ubuntu/libgd3@2.2.5-5.2ubuntu2.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b3812b64-a4f9-4ad9-806b-1369f70ebe6f",
+      "type": "library",
+      "name": "libgdbm-compat4",
+      "version": "1.18.1-5",
+      "purl": "pkg:deb/ubuntu/libgdbm-compat4@1.18.1-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7b7bd676-7429-417a-8c11-4c1fa399f993",
+      "type": "library",
+      "name": "libgdbm6",
+      "version": "1.18.1-5",
+      "purl": "pkg:deb/ubuntu/libgdbm6@1.18.1-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9182bd98-50c1-45ba-8b04-39a0ef712cb2",
+      "type": "library",
+      "name": "libgirepository-1.0-1",
+      "version": "1.64.1-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/libgirepository-1.0-1@1.64.1-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "99571536-1ac7-4f06-a504-4c9562770fa2",
+      "type": "library",
+      "name": "libglib2.0-0",
+      "version": "2.64.6-1~ubuntu20.04.9",
+      "purl": "pkg:deb/ubuntu/libglib2.0-0@2.64.6-1~ubuntu20.04.9?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df9809f8-f5f2-4729-9217-948807e09fea",
+      "type": "library",
+      "name": "libglib2.0-bin",
+      "version": "2.64.6-1~ubuntu20.04.9",
+      "purl": "pkg:deb/ubuntu/libglib2.0-bin@2.64.6-1~ubuntu20.04.9?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "28b46c71-93c3-4445-9ec3-5b59134c4f3d",
+      "type": "library",
+      "name": "libglib2.0-data",
+      "version": "2.64.6-1~ubuntu20.04.9",
+      "purl": "pkg:deb/ubuntu/libglib2.0-data@2.64.6-1~ubuntu20.04.9?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ca5c73dc-b71a-4916-a969-a2b3a36710be",
+      "type": "library",
+      "name": "libgmp10",
+      "version": "2:6.2.0+dfsg-4ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libgmp10@2%3A6.2.0%2Bdfsg-4ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c861cb5b-71e2-4514-9f53-a53e43fd5dbc",
+      "type": "library",
+      "name": "libgnutls30",
+      "version": "3.6.13-2ubuntu1.12",
+      "purl": "pkg:deb/ubuntu/libgnutls30@3.6.13-2ubuntu1.12?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8e1f1e66-a632-4d5b-aa97-9f3582eb94c4",
+      "type": "library",
+      "name": "libgpg-error0",
+      "version": "1.37-1",
+      "purl": "pkg:deb/ubuntu/libgpg-error0@1.37-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8e42511b-65fc-474a-9236-8bad458d63e6",
+      "type": "library",
+      "name": "libgpgme11",
+      "version": "1.13.1-7ubuntu2.2",
+      "purl": "pkg:deb/ubuntu/libgpgme11@1.13.1-7ubuntu2.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "dc7b61f2-bb9b-4932-b54a-f2334539877d",
+      "type": "library",
+      "name": "libgpm2",
+      "version": "1.20.7-5",
+      "purl": "pkg:deb/ubuntu/libgpm2@1.20.7-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3b71bd8e-94ec-4912-9fc1-5c9efa6c9639",
+      "type": "library",
+      "name": "libgssapi-krb5-2",
+      "version": "1.17-6ubuntu4.11",
+      "purl": "pkg:deb/ubuntu/libgssapi-krb5-2@1.17-6ubuntu4.11?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "47c1a4af-ffcc-4198-9091-d93ed4b3c988",
+      "type": "library",
+      "name": "libgssapi3-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libgssapi3-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "84871f7c-2983-4afa-b630-003d4e2a3dd9",
+      "type": "library",
+      "name": "libgstreamer1.0-0",
+      "version": "1.16.3-0ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/libgstreamer1.0-0@1.16.3-0ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cdbd95be-7794-44cc-9b95-5b7ab84f5469",
+      "type": "library",
+      "name": "libgudev-1.0-0",
+      "version": "1:233-1",
+      "purl": "pkg:deb/ubuntu/libgudev-1.0-0@1%3A233-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b2da2a27-191c-4373-a5bf-5f59ff06f5ae",
+      "type": "library",
+      "name": "libgusb2",
+      "version": "0.3.4-0.1",
+      "purl": "pkg:deb/ubuntu/libgusb2@0.3.4-0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "598f052a-98da-41bc-940d-0df8852b5c3a",
+      "type": "library",
+      "name": "libhcrypto4-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libhcrypto4-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2d209698-743c-481f-a64a-d8b0596d703d",
+      "type": "library",
+      "name": "libheimbase1-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libheimbase1-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f91f3ba3-5d78-4ca7-b7a5-2b165b9fd37f",
+      "type": "library",
+      "name": "libheimntlm0-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libheimntlm0-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ea3b5b5c-e8e0-46b1-9261-5544fc138911",
+      "type": "library",
+      "name": "libhogweed5",
+      "version": "3.5.1+really3.5.1-2ubuntu0.2",
+      "purl": "pkg:deb/ubuntu/libhogweed5@3.5.1%2Breally3.5.1-2ubuntu0.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4e5f5459-1d1e-48cc-a109-0a73f9217cc3",
+      "type": "library",
+      "name": "libhx509-5-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libhx509-5-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e9f73ba4-1714-47e4-8b75-6cb3fd6a8357",
+      "type": "library",
+      "name": "libicu66",
+      "version": "66.1-2ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libicu66@66.1-2ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "771c7e39-7e52-4fbd-a27e-b3b89c61358d",
+      "type": "library",
+      "name": "libidn2-0",
+      "version": "2.2.0-2",
+      "purl": "pkg:deb/ubuntu/libidn2-0@2.2.0-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d098578e-2524-4a5e-afca-c45062891b59",
+      "type": "library",
+      "name": "libip4tc2",
+      "version": "1.8.4-3ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libip4tc2@1.8.4-3ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "76dc665b-d7a8-4efc-8621-697febcb0fff",
+      "type": "library",
+      "name": "libip6tc2",
+      "version": "1.8.4-3ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libip6tc2@1.8.4-3ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "72abad3f-c8e6-4592-9901-db56e1fee727",
+      "type": "library",
+      "name": "libisc-export1105",
+      "version": "1:9.11.16+dfsg-3~ubuntu1",
+      "purl": "pkg:deb/ubuntu/libisc-export1105@1%3A9.11.16%2Bdfsg-3~ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bbd736ec-2e2e-480a-a852-8e9d35f9fa46",
+      "type": "library",
+      "name": "libisns0",
+      "version": "0.97-3",
+      "purl": "pkg:deb/ubuntu/libisns0@0.97-3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3262a3fa-cb9f-43f7-9516-044a61b08bde",
+      "type": "library",
+      "name": "libjbig0",
+      "version": "2.1-3.1ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/libjbig0@2.1-3.1ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "34db337c-1ab4-4ebe-9abd-0af5171e9a79",
+      "type": "library",
+      "name": "libjcat1",
+      "version": "0.1.4-0ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/libjcat1@0.1.4-0ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f7694d90-c68d-4387-a759-575399c3cef6",
+      "type": "library",
+      "name": "libjpeg-turbo8",
+      "version": "2.0.3-0ubuntu1.20.04.3",
+      "purl": "pkg:deb/ubuntu/libjpeg-turbo8@2.0.3-0ubuntu1.20.04.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8c1adac7-25d8-410d-88d9-b1bc89f8d4ba",
+      "type": "library",
+      "name": "libjpeg8",
+      "version": "8c-2ubuntu8",
+      "purl": "pkg:deb/ubuntu/libjpeg8@8c-2ubuntu8?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1764041e-6966-4711-a2ff-9ad77253fb52",
+      "type": "library",
+      "name": "libjson-c4",
+      "version": "0.13.1+dfsg-7ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/libjson-c4@0.13.1%2Bdfsg-7ubuntu0.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9f029a57-9845-441b-9686-94b7d86db55f",
+      "type": "library",
+      "name": "libjson-glib-1.0-0",
+      "version": "1.4.4-2ubuntu2",
+      "purl": "pkg:deb/ubuntu/libjson-glib-1.0-0@1.4.4-2ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cf5dcb7f-088d-4915-8e66-b4846aa89a44",
+      "type": "library",
+      "name": "libjson-glib-1.0-common",
+      "version": "1.4.4-2ubuntu2",
+      "purl": "pkg:deb/ubuntu/libjson-glib-1.0-common@1.4.4-2ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9dec6b17-b359-4551-a7fc-afdd843a80bd",
+      "type": "library",
+      "name": "libk5crypto3",
+      "version": "1.17-6ubuntu4.11",
+      "purl": "pkg:deb/ubuntu/libk5crypto3@1.17-6ubuntu4.11?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4aee9442-1fde-43a8-bd74-71560ba78d1e",
+      "type": "library",
+      "name": "libkeyutils1",
+      "version": "1.6-6ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/libkeyutils1@1.6-6ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d19ec2b2-31c3-45b6-9780-52169bd06b60",
+      "type": "library",
+      "name": "libklibc",
+      "version": "2.0.7-1ubuntu5.2",
+      "purl": "pkg:deb/ubuntu/libklibc@2.0.7-1ubuntu5.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4e6a9498-11b3-4772-b4cc-beca81e366d8",
+      "type": "library",
+      "name": "libkmod2",
+      "version": "27-1ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libkmod2@27-1ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9a41a69d-2417-47b3-8fc7-51243d583c6c",
+      "type": "library",
+      "name": "libkrb5-26-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libkrb5-26-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "87ae4cbe-5bbf-4202-a465-a73fb3ead07f",
+      "type": "library",
+      "name": "libkrb5-3",
+      "version": "1.17-6ubuntu4.11",
+      "purl": "pkg:deb/ubuntu/libkrb5-3@1.17-6ubuntu4.11?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a0c2c024-9a63-413b-a805-080f5c26dfa6",
+      "type": "library",
+      "name": "libkrb5support0",
+      "version": "1.17-6ubuntu4.11",
+      "purl": "pkg:deb/ubuntu/libkrb5support0@1.17-6ubuntu4.11?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9a650aaf-2827-4c64-a782-28be9bbe29d9",
+      "type": "library",
+      "name": "libksba8",
+      "version": "1.3.5-2ubuntu0.20.04.2",
+      "purl": "pkg:deb/ubuntu/libksba8@1.3.5-2ubuntu0.20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6a2240c7-f8b2-44cc-9633-7f771ed6f8e3",
+      "type": "library",
+      "name": "libldap-2.4-2",
+      "version": "2.4.49+dfsg-2ubuntu1.10",
+      "purl": "pkg:deb/ubuntu/libldap-2.4-2@2.4.49%2Bdfsg-2ubuntu1.10?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a2053810-b69f-413a-8bbb-d4b816409c85",
+      "type": "library",
+      "name": "libldap-common",
+      "version": "2.4.49+dfsg-2ubuntu1.10",
+      "purl": "pkg:deb/ubuntu/libldap-common@2.4.49%2Bdfsg-2ubuntu1.10?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "939f61af-d96f-47a3-91d3-81364ca61e23",
+      "type": "library",
+      "name": "liblmdb0",
+      "version": "0.9.24-1",
+      "purl": "pkg:deb/ubuntu/liblmdb0@0.9.24-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "caca3940-a0f1-4853-879d-daf21d0b16f8",
+      "type": "library",
+      "name": "liblocale-gettext-perl",
+      "version": "1.07-4",
+      "purl": "pkg:deb/ubuntu/liblocale-gettext-perl@1.07-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "18239ff4-489e-41d5-97b8-89dff5b099f7",
+      "type": "library",
+      "name": "libltdl7",
+      "version": "2.4.6-14",
+      "purl": "pkg:deb/ubuntu/libltdl7@2.4.6-14?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fc641a4e-52f4-44fb-83a5-b7b620cd96de",
+      "type": "library",
+      "name": "liblvm2cmd2.03",
+      "version": "2.03.07-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/liblvm2cmd2.03@2.03.07-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "edf4eed1-0e34-4168-9f46-80fc39659708",
+      "type": "library",
+      "name": "liblz4-1",
+      "version": "1.9.2-2ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/liblz4-1@1.9.2-2ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8a6cdf85-6d90-4bc0-8b9b-b1f98d40a286",
+      "type": "library",
+      "name": "liblzma5",
+      "version": "5.2.4-1ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/liblzma5@5.2.4-1ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c40a094f-2ded-47e1-92d2-9bff6451c58e",
+      "type": "library",
+      "name": "liblzo2-2",
+      "version": "2.10-2",
+      "purl": "pkg:deb/ubuntu/liblzo2-2@2.10-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5c73e698-ad03-4e0b-a4ca-bc08206571c7",
+      "type": "library",
+      "name": "libmagic-mgc",
+      "version": "1:5.38-4",
+      "purl": "pkg:deb/ubuntu/libmagic-mgc@1%3A5.38-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3e121e38-23d3-48f4-b85f-3fb31fb31d4b",
+      "type": "library",
+      "name": "libmagic1",
+      "version": "1:5.38-4",
+      "purl": "pkg:deb/ubuntu/libmagic1@1%3A5.38-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "dc12bc37-1f44-40e2-a98b-7d5071b4513f",
+      "type": "library",
+      "name": "libmaxminddb0",
+      "version": "1.4.2-0ubuntu1.20.04.1",
+      "purl": "pkg:deb/ubuntu/libmaxminddb0@1.4.2-0ubuntu1.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5b01feff-06de-4404-84e5-fd06baeafb37",
+      "type": "library",
+      "name": "libmbim-glib4",
+      "version": "1.26.2-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/libmbim-glib4@1.26.2-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "69719c01-e30d-4c8b-adf9-04c715eeca53",
+      "type": "library",
+      "name": "libmbim-proxy",
+      "version": "1.26.2-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/libmbim-proxy@1.26.2-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ce8c9efc-5ca2-4cbe-8510-67da9abbca9e",
+      "type": "library",
+      "name": "libmm-glib0",
+      "version": "1.18.6-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/libmm-glib0@1.18.6-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fcb79fe0-d144-41b7-8f41-749e3ff66654",
+      "type": "library",
+      "name": "libmnl0",
+      "version": "1.0.4-2",
+      "purl": "pkg:deb/ubuntu/libmnl0@1.0.4-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b10d8461-9984-4f80-840a-fb73937ecd04",
+      "type": "library",
+      "name": "libmount1",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/libmount1@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b36d4e6a-ea35-414b-8d6f-bbce0826d106",
+      "type": "library",
+      "name": "libmpdec2",
+      "version": "2.4.2-3",
+      "purl": "pkg:deb/ubuntu/libmpdec2@2.4.2-3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "68bb68dd-d964-48b2-8445-c1589363ede1",
+      "type": "library",
+      "name": "libmpfr6",
+      "version": "4.0.2-1",
+      "purl": "pkg:deb/ubuntu/libmpfr6@4.0.2-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "99c893d8-ba1e-4aa7-8156-23804d4c096f",
+      "type": "library",
+      "name": "libmspack0",
+      "version": "0.10.1-2",
+      "purl": "pkg:deb/ubuntu/libmspack0@0.10.1-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "45c948f3-14b6-4610-b633-691dc08a3b70",
+      "type": "library",
+      "name": "libncurses6",
+      "version": "6.2-0ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libncurses6@6.2-0ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "91a2739e-278a-4696-a68d-5c2ad2d668e7",
+      "type": "library",
+      "name": "libncursesw6",
+      "version": "6.2-0ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libncursesw6@6.2-0ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4bcda46b-90f9-4bcc-8940-cc26432c182e",
+      "type": "library",
+      "name": "libnetfilter-conntrack3",
+      "version": "1.0.7-2",
+      "purl": "pkg:deb/ubuntu/libnetfilter-conntrack3@1.0.7-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7d150bce-5dad-4bfb-828f-a603c09842cf",
+      "type": "library",
+      "name": "libnetplan0",
+      "version": "0.104-0ubuntu2~20.04.6",
+      "purl": "pkg:deb/ubuntu/libnetplan0@0.104-0ubuntu2~20.04.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3a0b938d-9586-4cb1-b157-d7adea9ea26f",
+      "type": "library",
+      "name": "libnettle7",
+      "version": "3.5.1+really3.5.1-2ubuntu0.2",
+      "purl": "pkg:deb/ubuntu/libnettle7@3.5.1%2Breally3.5.1-2ubuntu0.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e7ed34e9-807a-41b0-9a1f-ad025b14d638",
+      "type": "library",
+      "name": "libnewt0.52",
+      "version": "0.52.21-4ubuntu2",
+      "purl": "pkg:deb/ubuntu/libnewt0.52@0.52.21-4ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6d3dfc25-b298-402f-aefd-69b03caa7784",
+      "type": "library",
+      "name": "libnfnetlink0",
+      "version": "1.0.1-3build1",
+      "purl": "pkg:deb/ubuntu/libnfnetlink0@1.0.1-3build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "aef7c695-e6f0-49e3-8dba-4e2693bcd51a",
+      "type": "library",
+      "name": "libnftnl11",
+      "version": "1.1.5-1",
+      "purl": "pkg:deb/ubuntu/libnftnl11@1.1.5-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b7f1fe38-a8cd-495c-b486-51017c9f9d95",
+      "type": "library",
+      "name": "libnghttp2-14",
+      "version": "1.40.0-1ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/libnghttp2-14@1.40.0-1ubuntu0.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "522bd5da-0e14-4de8-89d9-88a5580548a5",
+      "type": "library",
+      "name": "libnginx-mod-http-image-filter",
+      "version": "1.18.0-0ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/libnginx-mod-http-image-filter@1.18.0-0ubuntu1.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7f4643e8-c89c-4589-a342-f7c885e2ab62",
+      "type": "library",
+      "name": "libnginx-mod-http-xslt-filter",
+      "version": "1.18.0-0ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/libnginx-mod-http-xslt-filter@1.18.0-0ubuntu1.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "91127102-5999-4efd-a7ba-937897c99abd",
+      "type": "library",
+      "name": "libnginx-mod-mail",
+      "version": "1.18.0-0ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/libnginx-mod-mail@1.18.0-0ubuntu1.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4dd5324f-d819-4821-a352-615d12995492",
+      "type": "library",
+      "name": "libnginx-mod-stream",
+      "version": "1.18.0-0ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/libnginx-mod-stream@1.18.0-0ubuntu1.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7320ee70-fe35-493e-8a88-8338bca9a5b8",
+      "type": "library",
+      "name": "libnpth0",
+      "version": "1.6-1",
+      "purl": "pkg:deb/ubuntu/libnpth0@1.6-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "888e4568-8c65-442a-a69d-46da0414f350",
+      "type": "library",
+      "name": "libnspr4",
+      "version": "2:4.35-0ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/libnspr4@2%3A4.35-0ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "45e0c064-b167-44bc-b4d8-0dcacf8484b9",
+      "type": "library",
+      "name": "libnss-systemd",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/libnss-systemd@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c954afc3-f6c1-4805-aa62-1e28dfb6ec60",
+      "type": "library",
+      "name": "libnss3",
+      "version": "2:3.98-0ubuntu0.20.04.2",
+      "purl": "pkg:deb/ubuntu/libnss3@2%3A3.98-0ubuntu0.20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "223c00b6-b11c-48ef-aa78-37aec974c35c",
+      "type": "library",
+      "name": "libntfs-3g883",
+      "version": "1:2017.3.23AR.3-3ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/libntfs-3g883@1%3A2017.3.23AR.3-3ubuntu1.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ba5005ec-4c46-456e-bc91-d981af9bf7cf",
+      "type": "library",
+      "name": "libnuma1",
+      "version": "2.0.12-1",
+      "purl": "pkg:deb/ubuntu/libnuma1@2.0.12-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b044949b-5470-4922-828e-e66672a5a0b2",
+      "type": "library",
+      "name": "libogg0",
+      "version": "1.3.4-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/libogg0@1.3.4-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e24af3f8-9e21-4ecb-b374-dd6504ed5d71",
+      "type": "library",
+      "name": "libp11-kit0",
+      "version": "0.23.20-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libp11-kit0@0.23.20-1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a85c1607-9e5a-46a6-a9ab-876de5e47bfe",
+      "type": "library",
+      "name": "libpackagekit-glib2-18",
+      "version": "1.1.13-2ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/libpackagekit-glib2-18@1.1.13-2ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "260fc91e-663f-449a-b2f1-b699d87c716d",
+      "type": "library",
+      "name": "libpam-cap",
+      "version": "1:2.32-1ubuntu0.2",
+      "purl": "pkg:deb/ubuntu/libpam-cap@1%3A2.32-1ubuntu0.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c43cbdef-0698-408a-b7c6-3249e997b52a",
+      "type": "library",
+      "name": "libpam-modules",
+      "version": "1.3.1-5ubuntu4.7",
+      "purl": "pkg:deb/ubuntu/libpam-modules@1.3.1-5ubuntu4.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3f3135d8-c55e-47a3-928b-246f4022470d",
+      "type": "library",
+      "name": "libpam-modules-bin",
+      "version": "1.3.1-5ubuntu4.7",
+      "purl": "pkg:deb/ubuntu/libpam-modules-bin@1.3.1-5ubuntu4.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "694be639-33cd-4120-941c-99e0c2d82d0f",
+      "type": "library",
+      "name": "libpam-runtime",
+      "version": "1.3.1-5ubuntu4.7",
+      "purl": "pkg:deb/ubuntu/libpam-runtime@1.3.1-5ubuntu4.7?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "465a2342-c5ea-4c05-bd2b-2c0025010ca6",
+      "type": "library",
+      "name": "libpam-systemd",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/libpam-systemd@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "87101e8c-e0d1-4d4e-ad75-091a851ad9a8",
+      "type": "library",
+      "name": "libpam0g",
+      "version": "1.3.1-5ubuntu4.7",
+      "purl": "pkg:deb/ubuntu/libpam0g@1.3.1-5ubuntu4.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7e0e356e-c300-47a7-91e3-29827fa7b4bb",
+      "type": "library",
+      "name": "libparted-fs-resize0",
+      "version": "3.3-4ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/libparted-fs-resize0@3.3-4ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2bc04b63-d4d2-4412-860d-cbeb1d9b20c6",
+      "type": "library",
+      "name": "libparted2",
+      "version": "3.3-4ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/libparted2@3.3-4ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "70123660-5f6d-43ff-a6f1-2fc74a1b0f0a",
+      "type": "library",
+      "name": "libpcap0.8",
+      "version": "1.9.1-3ubuntu1.20.04.1",
+      "purl": "pkg:deb/ubuntu/libpcap0.8@1.9.1-3ubuntu1.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2bf122b6-3073-4f1d-8a88-a301419f8b49",
+      "type": "library",
+      "name": "libpci3",
+      "version": "1:3.6.4-1ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/libpci3@1%3A3.6.4-1ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7fb2ca60-c63a-471f-b929-ec5602620220",
+      "type": "library",
+      "name": "libpcre2-8-0",
+      "version": "10.34-7ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libpcre2-8-0@10.34-7ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e4fdcae8-95da-4371-991a-f39ea9dc2944",
+      "type": "library",
+      "name": "libpcre3",
+      "version": "2:8.39-12ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libpcre3@2%3A8.39-12ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2984f490-5612-487d-8dec-4ccefe6a1dc8",
+      "type": "library",
+      "name": "libperl5.30",
+      "version": "5.30.0-9ubuntu0.5",
+      "purl": "pkg:deb/ubuntu/libperl5.30@5.30.0-9ubuntu0.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ed73d053-2b7b-4aa7-ab7e-38d78b4d09de",
+      "type": "library",
+      "name": "libpipeline1",
+      "version": "1.5.2-2build1",
+      "purl": "pkg:deb/ubuntu/libpipeline1@1.5.2-2build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ff773033-1ed5-47b8-8ff2-25ae73426aa6",
+      "type": "library",
+      "name": "libplymouth5",
+      "version": "0.9.4git20200323-0ubuntu6.2",
+      "purl": "pkg:deb/ubuntu/libplymouth5@0.9.4git20200323-0ubuntu6.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "affd688c-c111-4f30-a86e-7593517c5352",
+      "type": "library",
+      "name": "libpng16-16",
+      "version": "1.6.37-2",
+      "purl": "pkg:deb/ubuntu/libpng16-16@1.6.37-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "88a08553-1602-4b89-9646-9804eea1dc03",
+      "type": "library",
+      "name": "libpolkit-agent-1-0",
+      "version": "0.105-26ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/libpolkit-agent-1-0@0.105-26ubuntu1.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e01520bc-3ac8-47a5-aab3-3bbd88f9b0a4",
+      "type": "library",
+      "name": "libpolkit-gobject-1-0",
+      "version": "0.105-26ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/libpolkit-gobject-1-0@0.105-26ubuntu1.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3a0a8124-2eed-4cb2-a830-424fc975050e",
+      "type": "library",
+      "name": "libpopt0",
+      "version": "1.16-14",
+      "purl": "pkg:deb/ubuntu/libpopt0@1.16-14?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "30ab4dfc-4f6b-4920-ab86-3a05060cf54e",
+      "type": "library",
+      "name": "libprocps8",
+      "version": "2:3.3.16-1ubuntu2.4",
+      "purl": "pkg:deb/ubuntu/libprocps8@2%3A3.3.16-1ubuntu2.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "947b2f1a-9ede-468b-aad1-6e1ea3e0941a",
+      "type": "library",
+      "name": "libproxy1v5",
+      "version": "0.4.15-10ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/libproxy1v5@0.4.15-10ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2f7e2633-42eb-4e8b-b68b-e39964b0ad50",
+      "type": "library",
+      "name": "libpsl5",
+      "version": "0.21.0-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/libpsl5@0.21.0-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f86b4d0c-6534-4aa0-8dba-3e80b12c2904",
+      "type": "library",
+      "name": "libpython3-stdlib",
+      "version": "3.8.2-0ubuntu2",
+      "purl": "pkg:deb/ubuntu/libpython3-stdlib@3.8.2-0ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a96d5054-653a-4cb5-b5b9-9382a82deba2",
+      "type": "library",
+      "name": "libpython3.8",
+      "version": "3.8.10-0ubuntu1~20.04.18",
+      "purl": "pkg:deb/ubuntu/libpython3.8@3.8.10-0ubuntu1~20.04.18?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b11dbfac-27fe-4ca3-84fd-e2642f5b95a1",
+      "type": "library",
+      "name": "libpython3.8-minimal",
+      "version": "3.8.10-0ubuntu1~20.04.18",
+      "purl": "pkg:deb/ubuntu/libpython3.8-minimal@3.8.10-0ubuntu1~20.04.18?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "778d12b7-b5ea-4be8-9468-0fb70095f596",
+      "type": "library",
+      "name": "libpython3.8-stdlib",
+      "version": "3.8.10-0ubuntu1~20.04.18",
+      "purl": "pkg:deb/ubuntu/libpython3.8-stdlib@3.8.10-0ubuntu1~20.04.18?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "392f66d0-441a-4481-8812-e2d3ee40a973",
+      "type": "library",
+      "name": "libqmi-glib5",
+      "version": "1.30.4-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/libqmi-glib5@1.30.4-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b906ca7d-5d94-4e56-b620-aa45c0f93013",
+      "type": "library",
+      "name": "libqmi-proxy",
+      "version": "1.30.4-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/libqmi-proxy@1.30.4-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bfd32c01-6b60-45e9-9715-19b37a0eb81d",
+      "type": "library",
+      "name": "libreadline5",
+      "version": "5.2+dfsg-3build3",
+      "purl": "pkg:deb/ubuntu/libreadline5@5.2%2Bdfsg-3build3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "22729e75-390e-4c9a-b74d-a6dd5c98eb20",
+      "type": "library",
+      "name": "libreadline8",
+      "version": "8.0-4",
+      "purl": "pkg:deb/ubuntu/libreadline8@8.0-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bdc2b92f-8448-4078-8069-300dbc680c9b",
+      "type": "library",
+      "name": "libroken18-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libroken18-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "31955ce3-6f71-4c78-aa39-53462dcb002f",
+      "type": "library",
+      "name": "librtmp1",
+      "version": "2.4+20151223.gitfa8646d.1-2build1",
+      "purl": "pkg:deb/ubuntu/librtmp1@2.4%2B20151223.gitfa8646d.1-2build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3ac63bdd-c1c8-46f2-9a5c-b936b9f75c4c",
+      "type": "library",
+      "name": "libsasl2-2",
+      "version": "2.1.27+dfsg-2ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libsasl2-2@2.1.27%2Bdfsg-2ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df42e0da-6f3f-49a3-8805-266b52300aa0",
+      "type": "library",
+      "name": "libsasl2-modules",
+      "version": "2.1.27+dfsg-2ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libsasl2-modules@2.1.27%2Bdfsg-2ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7b5e24b4-6d13-46d9-ba29-668a1d5f5a34",
+      "type": "library",
+      "name": "libsasl2-modules-db",
+      "version": "2.1.27+dfsg-2ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libsasl2-modules-db@2.1.27%2Bdfsg-2ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d79d2631-49e8-4026-9d29-104a59b41559",
+      "type": "library",
+      "name": "libseccomp2",
+      "version": "2.5.1-1ubuntu1~20.04.2",
+      "purl": "pkg:deb/ubuntu/libseccomp2@2.5.1-1ubuntu1~20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "db4e1a05-8bff-4e76-a971-7d66b91fe64b",
+      "type": "library",
+      "name": "libselinux1",
+      "version": "3.0-1build2",
+      "purl": "pkg:deb/ubuntu/libselinux1@3.0-1build2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5d353780-b29a-46ec-ad91-f1896533182d",
+      "type": "library",
+      "name": "libsemanage-common",
+      "version": "3.0-1build2",
+      "purl": "pkg:deb/ubuntu/libsemanage-common@3.0-1build2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "76383104-9397-456a-b108-922f9b9a79ec",
+      "type": "library",
+      "name": "libsemanage1",
+      "version": "3.0-1build2",
+      "purl": "pkg:deb/ubuntu/libsemanage1@3.0-1build2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "56145c3c-67a7-4d8a-98f2-1e26bd9882d7",
+      "type": "library",
+      "name": "libsepol1",
+      "version": "3.0-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libsepol1@3.0-1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f97eb78a-d8f2-4a77-8fc5-d9a5618a7446",
+      "type": "library",
+      "name": "libsgutils2-2",
+      "version": "1.44-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/libsgutils2-2@1.44-1ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "95f6dabe-dc59-438c-8911-28522a41772c",
+      "type": "library",
+      "name": "libsigsegv2",
+      "version": "2.12-2",
+      "purl": "pkg:deb/ubuntu/libsigsegv2@2.12-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "386dbd40-0453-44dd-8599-952a99f8456a",
+      "type": "library",
+      "name": "libslang2",
+      "version": "2.3.2-4",
+      "purl": "pkg:deb/ubuntu/libslang2@2.3.2-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2c5ea306-7b28-4e08-803d-0ef189347b0e",
+      "type": "library",
+      "name": "libsmartcols1",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/libsmartcols1@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "442b5b4a-16c0-4973-aee7-5f5c2875b371",
+      "type": "library",
+      "name": "libsmbios-c2",
+      "version": "2.4.3-1",
+      "purl": "pkg:deb/ubuntu/libsmbios-c2@2.4.3-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "54d52ad5-94e0-42c8-bccb-3b6231e08448",
+      "type": "library",
+      "name": "libsodium23",
+      "version": "1.0.18-1",
+      "purl": "pkg:deb/ubuntu/libsodium23@1.0.18-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df66ee85-7dd2-4210-8f05-2fdea28810ba",
+      "type": "library",
+      "name": "libsoup2.4-1",
+      "version": "2.70.0-1ubuntu0.5",
+      "purl": "pkg:deb/ubuntu/libsoup2.4-1@2.70.0-1ubuntu0.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a38caaea-2300-4525-ab51-58009a056b14",
+      "type": "library",
+      "name": "libsqlite3-0",
+      "version": "3.31.1-4ubuntu0.7",
+      "purl": "pkg:deb/ubuntu/libsqlite3-0@3.31.1-4ubuntu0.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ba6962b3-409b-4a01-8e51-c61dd676adb4",
+      "type": "library",
+      "name": "libss2",
+      "version": "1.45.5-2ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/libss2@1.45.5-2ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "48ee6ac7-72c9-4609-9f52-3119c2ce1a17",
+      "type": "library",
+      "name": "libssh-4",
+      "version": "0.9.3-2ubuntu2.5",
+      "purl": "pkg:deb/ubuntu/libssh-4@0.9.3-2ubuntu2.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "af26a0bc-3cd6-4c18-86f6-aeec43ec7622",
+      "type": "library",
+      "name": "libssl1.1",
+      "version": "1.1.1f-1ubuntu2.24",
+      "purl": "pkg:deb/ubuntu/libssl1.1@1.1.1f-1ubuntu2.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f58988b6-010b-46d7-8925-e4814f124b25",
+      "type": "library",
+      "name": "libstdc++6",
+      "version": "10.5.0-1ubuntu1~20.04",
+      "purl": "pkg:deb/ubuntu/libstdc%2B%2B6@10.5.0-1ubuntu1~20.04?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "31df5283-001b-4d8e-a9cd-1ad542c4f303",
+      "type": "library",
+      "name": "libstemmer0d",
+      "version": "0+svn585-2",
+      "purl": "pkg:deb/ubuntu/libstemmer0d@0%2Bsvn585-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "69f00861-4e3c-420a-b8d0-fa068b3192ac",
+      "type": "library",
+      "name": "libsystemd0",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/libsystemd0@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "867253e6-45f7-45c6-b616-86182c7741e7",
+      "type": "library",
+      "name": "libtasn1-6",
+      "version": "4.16.0-2ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libtasn1-6@4.16.0-2ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ec4c2456-8ada-4dae-ae65-afd05f95254a",
+      "type": "library",
+      "name": "libtdb1",
+      "version": "1.4.5-0ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/libtdb1@1.4.5-0ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "742fe3c5-a91a-4b12-9b15-849fe256f234",
+      "type": "library",
+      "name": "libtext-charwidth-perl",
+      "version": "0.04-10",
+      "purl": "pkg:deb/ubuntu/libtext-charwidth-perl@0.04-10?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "66ec7551-fb0d-4e96-8f88-d60c85e19a60",
+      "type": "library",
+      "name": "libtext-iconv-perl",
+      "version": "1.7-7",
+      "purl": "pkg:deb/ubuntu/libtext-iconv-perl@1.7-7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "838dae8b-4d93-498b-a078-ab2a30a58d4f",
+      "type": "library",
+      "name": "libtext-wrapi18n-perl",
+      "version": "0.06-9",
+      "purl": "pkg:deb/ubuntu/libtext-wrapi18n-perl@0.06-9?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eedf9a95-44d8-4706-b5f6-61b3053d4878",
+      "type": "library",
+      "name": "libtiff5",
+      "version": "4.1.0+git191117-2ubuntu0.20.04.14",
+      "purl": "pkg:deb/ubuntu/libtiff5@4.1.0%2Bgit191117-2ubuntu0.20.04.14?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d61a15c7-d958-4d2c-b127-b720c4bcfaf5",
+      "type": "library",
+      "name": "libtinfo6",
+      "version": "6.2-0ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libtinfo6@6.2-0ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "278e5c04-7352-4da3-ab88-610ef3115f2a",
+      "type": "library",
+      "name": "libtss2-esys0",
+      "version": "2.3.2-1ubuntu0.20.04.2",
+      "purl": "pkg:deb/ubuntu/libtss2-esys0@2.3.2-1ubuntu0.20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2b40b2e2-2cbb-4ea6-8ecc-4ba896aa62ed",
+      "type": "library",
+      "name": "libuchardet0",
+      "version": "0.0.6-3build1",
+      "purl": "pkg:deb/ubuntu/libuchardet0@0.0.6-3build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "af44c88a-5613-4ace-9946-1d08849f9de9",
+      "type": "library",
+      "name": "libudev1",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/libudev1@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "723be459-c8f0-4dec-b1df-9e4b3771efc3",
+      "type": "library",
+      "name": "libudisks2-0",
+      "version": "2.8.4-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/libudisks2-0@2.8.4-1ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2eb0cb1b-9776-483c-8155-4777c5584d3d",
+      "type": "library",
+      "name": "libunistring2",
+      "version": "0.9.10-2",
+      "purl": "pkg:deb/ubuntu/libunistring2@0.9.10-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "71f6fec9-9818-4823-8b1b-11720b88ed50",
+      "type": "library",
+      "name": "libunwind8",
+      "version": "1.2.1-9ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libunwind8@1.2.1-9ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b17bd919-aed4-4f08-bd31-d9a47ab23747",
+      "type": "library",
+      "name": "liburcu6",
+      "version": "0.11.1-2",
+      "purl": "pkg:deb/ubuntu/liburcu6@0.11.1-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "173e075f-402a-4a96-833f-b94423aaba8a",
+      "type": "library",
+      "name": "libusb-1.0-0",
+      "version": "2:1.0.23-2build1",
+      "purl": "pkg:deb/ubuntu/libusb-1.0-0@2%3A1.0.23-2build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0b30153c-783e-48ec-badd-0aec6ceb72ea",
+      "type": "library",
+      "name": "libutempter0",
+      "version": "1.1.6-4",
+      "purl": "pkg:deb/ubuntu/libutempter0@1.1.6-4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5d64eeb9-99e8-4fda-9eab-c00bd41501a2",
+      "type": "library",
+      "name": "libuuid1",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/libuuid1@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ef63f712-d723-433c-ae99-68cf525ca2cf",
+      "type": "library",
+      "name": "libuv1",
+      "version": "1.34.2-1ubuntu1.5",
+      "purl": "pkg:deb/ubuntu/libuv1@1.34.2-1ubuntu1.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7502d5ff-fc91-4190-ba04-f38a91a5ecac",
+      "type": "library",
+      "name": "libvolume-key1",
+      "version": "0.3.12-3.1",
+      "purl": "pkg:deb/ubuntu/libvolume-key1@0.3.12-3.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4852dfd6-fbec-48bb-9302-8c012a6185f5",
+      "type": "library",
+      "name": "libvorbis0a",
+      "version": "1.3.6-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/libvorbis0a@1.3.6-2ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "84c01d17-bb44-4c3f-8424-cae44dc8a11f",
+      "type": "library",
+      "name": "libvorbisfile3",
+      "version": "1.3.6-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/libvorbisfile3@1.3.6-2ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0af94dfd-e2d2-4cbd-8178-641f95cf714c",
+      "type": "library",
+      "name": "libwebp6",
+      "version": "0.6.1-2ubuntu0.20.04.3",
+      "purl": "pkg:deb/ubuntu/libwebp6@0.6.1-2ubuntu0.20.04.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4c735649-aa33-4b19-b09b-44316688e5e9",
+      "type": "library",
+      "name": "libwind0-heimdal",
+      "version": "7.7.0+dfsg-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/libwind0-heimdal@7.7.0%2Bdfsg-1ubuntu1.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3616e093-bb57-493a-a586-6be9b507745d",
+      "type": "library",
+      "name": "libwrap0",
+      "version": "7.6.q-30",
+      "purl": "pkg:deb/ubuntu/libwrap0@7.6.q-30?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2b091160-1a86-4ff5-a4ac-6a8e13ad05e3",
+      "type": "library",
+      "name": "libx11-6",
+      "version": "2:1.6.9-2ubuntu1.6",
+      "purl": "pkg:deb/ubuntu/libx11-6@2%3A1.6.9-2ubuntu1.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "78741ba9-360c-4946-9e5d-789063e423ab",
+      "type": "library",
+      "name": "libx11-data",
+      "version": "2:1.6.9-2ubuntu1.6",
+      "purl": "pkg:deb/ubuntu/libx11-data@2%3A1.6.9-2ubuntu1.6?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b6791fd7-857e-4376-87e0-ec09a490e7b4",
+      "type": "library",
+      "name": "libxau6",
+      "version": "1:1.0.9-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/libxau6@1%3A1.0.9-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e719cbaf-913f-4899-a2fe-6dc7434ec5f8",
+      "type": "library",
+      "name": "libxcb1",
+      "version": "1.14-2",
+      "purl": "pkg:deb/ubuntu/libxcb1@1.14-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d8ed3878-d8df-4561-ada7-7a9659db0114",
+      "type": "library",
+      "name": "libxdmcp6",
+      "version": "1:1.1.3-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/libxdmcp6@1%3A1.1.3-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6204ce8e-d425-49b0-9e46-c1413c85df14",
+      "type": "library",
+      "name": "libxext6",
+      "version": "2:1.3.4-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/libxext6@2%3A1.3.4-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cec1e058-bba5-4ac5-916d-a4a6295be9d9",
+      "type": "library",
+      "name": "libxml2",
+      "version": "2.9.10+dfsg-5ubuntu0.20.04.10",
+      "purl": "pkg:deb/ubuntu/libxml2@2.9.10%2Bdfsg-5ubuntu0.20.04.10?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "17a42b9b-4cf7-45c7-bb9b-74d272d290c4",
+      "type": "library",
+      "name": "libxmlb1",
+      "version": "0.1.15-2ubuntu1~20.04.1",
+      "purl": "pkg:deb/ubuntu/libxmlb1@0.1.15-2ubuntu1~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a8f5a5e1-51d4-46d7-9382-ec8e2258aabd",
+      "type": "library",
+      "name": "libxmlb2",
+      "version": "0.3.6-2build1~20.04.1",
+      "purl": "pkg:deb/ubuntu/libxmlb2@0.3.6-2build1~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "28896d9f-daab-449e-9e5d-033dd7579068",
+      "type": "library",
+      "name": "libxmlsec1",
+      "version": "1.2.28-2",
+      "purl": "pkg:deb/ubuntu/libxmlsec1@1.2.28-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e5962157-a1a6-4b42-b224-9c1bd4fb8a02",
+      "type": "library",
+      "name": "libxmlsec1-openssl",
+      "version": "1.2.28-2",
+      "purl": "pkg:deb/ubuntu/libxmlsec1-openssl@1.2.28-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6fad8edc-b8fb-4d40-af6b-11cf40da4567",
+      "type": "library",
+      "name": "libxmuu1",
+      "version": "2:1.1.3-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/libxmuu1@2%3A1.1.3-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "19f44a41-7563-4aba-80da-8b771e90d6dd",
+      "type": "library",
+      "name": "libxpm4",
+      "version": "1:3.5.12-1ubuntu0.20.04.2",
+      "purl": "pkg:deb/ubuntu/libxpm4@1%3A3.5.12-1ubuntu0.20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df6ecec9-9e0e-4647-a4a7-d80ce49f1502",
+      "type": "library",
+      "name": "libxslt1.1",
+      "version": "1.1.34-4ubuntu0.20.04.3",
+      "purl": "pkg:deb/ubuntu/libxslt1.1@1.1.34-4ubuntu0.20.04.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df6775f0-4939-4a9c-98fa-721169b71f3a",
+      "type": "library",
+      "name": "libxtables12",
+      "version": "1.8.4-3ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/libxtables12@1.8.4-3ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0e16e7f6-1ae4-49db-b89f-fc41a4bc1092",
+      "type": "library",
+      "name": "libyaml-0-2",
+      "version": "0.2.2-1",
+      "purl": "pkg:deb/ubuntu/libyaml-0-2@0.2.2-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e0b2bf30-7579-4569-9c43-5b2f1b733cfd",
+      "type": "library",
+      "name": "libzstd1",
+      "version": "1.4.4+dfsg-3ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libzstd1@1.4.4%2Bdfsg-3ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1657b137-bce9-43e6-99f6-be168ff02c34",
+      "type": "library",
+      "name": "linux-aws",
+      "version": "5.15.0.1084.91~20.04.1",
+      "purl": "pkg:deb/ubuntu/linux-aws@5.15.0.1084.91~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c777e81e-e30b-4f87-9097-247b8f50072d",
+      "type": "library",
+      "name": "linux-aws-5.15-headers-5.15.0-1084",
+      "version": "5.15.0-1084.91~20.04.1",
+      "purl": "pkg:deb/ubuntu/linux-aws-5.15-headers-5.15.0-1084@5.15.0-1084.91~20.04.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "33fc2c69-7c56-4cb6-99e2-3d9934b9b5dd",
+      "type": "library",
+      "name": "linux-base",
+      "version": "4.5ubuntu3.7",
+      "purl": "pkg:deb/ubuntu/linux-base@4.5ubuntu3.7?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "99e13f58-05a2-4640-b57b-4630158c1447",
+      "type": "library",
+      "name": "linux-headers-5.15.0-1084-aws",
+      "version": "5.15.0-1084.91~20.04.1",
+      "purl": "pkg:deb/ubuntu/linux-headers-5.15.0-1084-aws@5.15.0-1084.91~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "69e0308f-5b7a-4a26-9b08-fc7e8027127d",
+      "type": "library",
+      "name": "linux-headers-aws",
+      "version": "5.15.0.1084.91~20.04.1",
+      "purl": "pkg:deb/ubuntu/linux-headers-aws@5.15.0.1084.91~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "306035fd-2569-4478-b4b2-523c5ce882da",
+      "type": "library",
+      "name": "linux-image-5.15.0-1084-aws",
+      "version": "5.15.0-1084.91~20.04.1",
+      "purl": "pkg:deb/ubuntu/linux-image-5.15.0-1084-aws@5.15.0-1084.91~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "65061c91-e3b4-4bdd-bdab-a88e76616fa3",
+      "type": "library",
+      "name": "linux-image-aws",
+      "version": "5.15.0.1084.91~20.04.1",
+      "purl": "pkg:deb/ubuntu/linux-image-aws@5.15.0.1084.91~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0eb2ab20-b240-4328-b87b-5bdbb0612c9e",
+      "type": "library",
+      "name": "linux-modules-5.15.0-1084-aws",
+      "version": "5.15.0-1084.91~20.04.1",
+      "purl": "pkg:deb/ubuntu/linux-modules-5.15.0-1084-aws@5.15.0-1084.91~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a801e34c-a5a1-4399-9820-29d68791a6f0",
+      "type": "library",
+      "name": "locales",
+      "version": "2.31-0ubuntu9.18",
+      "purl": "pkg:deb/ubuntu/locales@2.31-0ubuntu9.18?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e97f8cad-5857-4a4d-85c3-fb01bd292002",
+      "type": "library",
+      "name": "login",
+      "version": "1:4.8.1-1ubuntu5.20.04.5",
+      "purl": "pkg:deb/ubuntu/login@1%3A4.8.1-1ubuntu5.20.04.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3dfe64c6-5156-45cb-94cf-2fdfbbfd67ff",
+      "type": "library",
+      "name": "logrotate",
+      "version": "3.14.0-4ubuntu3",
+      "purl": "pkg:deb/ubuntu/logrotate@3.14.0-4ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "60e5dce1-7977-491e-b7a9-2bda2e7b1793",
+      "type": "library",
+      "name": "logsave",
+      "version": "1.45.5-2ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/logsave@1.45.5-2ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eeea07dd-f8a5-4970-aec3-764c64f63aea",
+      "type": "library",
+      "name": "lsb-base",
+      "version": "11.1.0ubuntu2",
+      "purl": "pkg:deb/ubuntu/lsb-base@11.1.0ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b3afae3d-212e-4fd1-8db8-8620d5954dec",
+      "type": "library",
+      "name": "lsb-release",
+      "version": "11.1.0ubuntu2",
+      "purl": "pkg:deb/ubuntu/lsb-release@11.1.0ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "65d05320-23dd-413a-933d-c099fc99538a",
+      "type": "library",
+      "name": "lshw",
+      "version": "02.18.85-0.3ubuntu2.20.04.1",
+      "purl": "pkg:deb/ubuntu/lshw@02.18.85-0.3ubuntu2.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "00191786-b77c-4139-bc65-7210794d0df1",
+      "type": "library",
+      "name": "lsof",
+      "version": "4.93.2+dfsg-1ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/lsof@4.93.2%2Bdfsg-1ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d6300602-34c5-4595-882a-46cd08d71f18",
+      "type": "library",
+      "name": "ltrace",
+      "version": "0.7.3-6.1ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/ltrace@0.7.3-6.1ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "726f1999-b051-4f93-b4fd-a80ad4b521b4",
+      "type": "library",
+      "name": "lvm2",
+      "version": "2.03.07-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/lvm2@2.03.07-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a1df5912-3b82-46b6-aae0-f5eabf092f13",
+      "type": "library",
+      "name": "lxd-agent-loader",
+      "version": "0.4",
+      "purl": "pkg:deb/ubuntu/lxd-agent-loader@0.4?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1c48bc97-396b-46f0-816c-b3c5e5412dab",
+      "type": "library",
+      "name": "lz4",
+      "version": "1.9.2-2ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/lz4@1.9.2-2ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e1c4e8d0-4d52-4808-b7aa-c0142f79a25b",
+      "type": "library",
+      "name": "man-db",
+      "version": "2.9.1-1",
+      "purl": "pkg:deb/ubuntu/man-db@2.9.1-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "002de459-e3eb-417c-b741-940a45fad711",
+      "type": "library",
+      "name": "manpages",
+      "version": "5.05-1",
+      "purl": "pkg:deb/ubuntu/manpages@5.05-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "12cf8c57-ea5c-4efd-9ee0-e7df942b2928",
+      "type": "library",
+      "name": "mawk",
+      "version": "1.3.4.20200120-2",
+      "purl": "pkg:deb/ubuntu/mawk@1.3.4.20200120-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2072fbc2-bfc3-4782-8841-dc9d1a034bc7",
+      "type": "library",
+      "name": "mdadm",
+      "version": "4.1-5ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/mdadm@4.1-5ubuntu1.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "477ea039-dc88-4676-aade-b2921c93bc9e",
+      "type": "library",
+      "name": "microcode-initrd",
+      "version": "2~20.04.0",
+      "purl": "pkg:deb/ubuntu/microcode-initrd@2~20.04.0?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8236f0d4-3454-40d2-909f-b8143b605565",
+      "type": "library",
+      "name": "mime-support",
+      "version": "3.64ubuntu1",
+      "purl": "pkg:deb/ubuntu/mime-support@3.64ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "93f2b2ea-0255-4bd5-a6d5-c4c83eefe6c1",
+      "type": "library",
+      "name": "modemmanager",
+      "version": "1.18.6-1~ubuntu20.04.1",
+      "purl": "pkg:deb/ubuntu/modemmanager@1.18.6-1~ubuntu20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c81d5284-ff79-45dd-a64b-099d1cb3e9dc",
+      "type": "library",
+      "name": "mokutil",
+      "version": "0.6.0-2~20.04.2",
+      "purl": "pkg:deb/ubuntu/mokutil@0.6.0-2~20.04.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "abf56c8f-4dfd-47a6-8f6c-cac4f2168ab7",
+      "type": "library",
+      "name": "mondoo",
+      "version": "13.2.0",
+      "purl": "pkg:deb/ubuntu/mondoo@13.2.0?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "77714859-424a-4729-aac1-67986186e3c2",
+      "type": "library",
+      "name": "motd-news-config",
+      "version": "11ubuntu5.8",
+      "purl": "pkg:deb/ubuntu/motd-news-config@11ubuntu5.8?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "25f3bded-9319-4a4f-829e-77ec0283dc21",
+      "type": "library",
+      "name": "mount",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/mount@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fa079d35-fa53-41ae-93c7-c7566ba41541",
+      "type": "library",
+      "name": "mql",
+      "version": "13.2.0",
+      "purl": "pkg:deb/ubuntu/mql@13.2.0?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6006b23e-e195-473f-9180-3aa782541238",
+      "type": "library",
+      "name": "mtr-tiny",
+      "version": "0.93-1",
+      "purl": "pkg:deb/ubuntu/mtr-tiny@0.93-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1cee2561-8b58-403c-a518-d9936cfef12d",
+      "type": "library",
+      "name": "multipath-tools",
+      "version": "0.8.3-1ubuntu2.4",
+      "purl": "pkg:deb/ubuntu/multipath-tools@0.8.3-1ubuntu2.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b497b535-b40e-47dc-8382-e2745dc84374",
+      "type": "library",
+      "name": "nano",
+      "version": "4.8-1ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/nano@4.8-1ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e80ad34e-24d7-4ccc-908f-347ba1ac8313",
+      "type": "library",
+      "name": "ncurses-base",
+      "version": "6.2-0ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/ncurses-base@6.2-0ubuntu2.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "193f5d21-5abf-4c37-8db1-db77b4e03feb",
+      "type": "library",
+      "name": "ncurses-bin",
+      "version": "6.2-0ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/ncurses-bin@6.2-0ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "99f44f26-6bf2-404e-b9d7-0352752faeb0",
+      "type": "library",
+      "name": "ncurses-term",
+      "version": "6.2-0ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/ncurses-term@6.2-0ubuntu2.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "863880ab-59b1-4a38-9c1c-45b97dcbd595",
+      "type": "library",
+      "name": "netbase",
+      "version": "6.1",
+      "purl": "pkg:deb/ubuntu/netbase@6.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a4323523-d1e9-4b63-ab15-46cec0073e59",
+      "type": "library",
+      "name": "netcat-openbsd",
+      "version": "1.206-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/netcat-openbsd@1.206-1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c922b24d-9181-42f2-9ab2-7583613d3cdb",
+      "type": "library",
+      "name": "netplan.io",
+      "version": "0.104-0ubuntu2~20.04.6",
+      "purl": "pkg:deb/ubuntu/netplan.io@0.104-0ubuntu2~20.04.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2a162059-f2f7-490c-848a-f655b13f8f0c",
+      "type": "library",
+      "name": "networkd-dispatcher",
+      "version": "2.1-2~ubuntu20.04.3",
+      "purl": "pkg:deb/ubuntu/networkd-dispatcher@2.1-2~ubuntu20.04.3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1ffca4b2-e2c0-4ee8-85b3-608077cc9a8d",
+      "type": "library",
+      "name": "nginx",
+      "version": "1.18.0-0ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/nginx@1.18.0-0ubuntu1.7?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eb70f921-af07-4419-b3c5-7e822762a1dd",
+      "type": "library",
+      "name": "nginx-common",
+      "version": "1.18.0-0ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/nginx-common@1.18.0-0ubuntu1.7?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2832c5cb-a206-44c8-aebe-425afd45872a",
+      "type": "library",
+      "name": "nginx-core",
+      "version": "1.18.0-0ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/nginx-core@1.18.0-0ubuntu1.7?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2d10d59a-d423-452a-a8ac-b1e813757ce3",
+      "type": "library",
+      "name": "ntfs-3g",
+      "version": "1:2017.3.23AR.3-3ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/ntfs-3g@1%3A2017.3.23AR.3-3ubuntu1.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "43da8032-e855-4b4e-938a-9863a54f99bd",
+      "type": "library",
+      "name": "open-iscsi",
+      "version": "2.0.874-7.1ubuntu6.5",
+      "purl": "pkg:deb/ubuntu/open-iscsi@2.0.874-7.1ubuntu6.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bb55d22c-c45b-4135-a46c-e72cbe1c6df6",
+      "type": "library",
+      "name": "open-vm-tools",
+      "version": "2:11.3.0-2ubuntu0~ubuntu20.04.8",
+      "purl": "pkg:deb/ubuntu/open-vm-tools@2%3A11.3.0-2ubuntu0~ubuntu20.04.8?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "54dd59a3-40f4-4349-a73c-a06eade8a25f",
+      "type": "library",
+      "name": "openssh-client",
+      "version": "1:8.2p1-4ubuntu0.13",
+      "purl": "pkg:deb/ubuntu/openssh-client@1%3A8.2p1-4ubuntu0.13?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e477bf7f-c0d8-440c-ad10-7fabc6d67803",
+      "type": "library",
+      "name": "openssh-server",
+      "version": "1:8.2p1-4ubuntu0.13",
+      "purl": "pkg:deb/ubuntu/openssh-server@1%3A8.2p1-4ubuntu0.13?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c48caf3a-b508-4778-92b2-c7a42b0217a3",
+      "type": "library",
+      "name": "openssh-sftp-server",
+      "version": "1:8.2p1-4ubuntu0.13",
+      "purl": "pkg:deb/ubuntu/openssh-sftp-server@1%3A8.2p1-4ubuntu0.13?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "25e35969-d7c2-4184-9e60-09a428bb64c3",
+      "type": "library",
+      "name": "openssl",
+      "version": "1.1.1f-1ubuntu2.24",
+      "purl": "pkg:deb/ubuntu/openssl@1.1.1f-1ubuntu2.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bcdd0a9b-2047-49cd-9d92-a47b44f4905e",
+      "type": "library",
+      "name": "os-prober",
+      "version": "1.74ubuntu2",
+      "purl": "pkg:deb/ubuntu/os-prober@1.74ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b30d48ce-c06e-4201-b967-4a8c9b6af069",
+      "type": "library",
+      "name": "overlayroot",
+      "version": "0.45ubuntu2",
+      "purl": "pkg:deb/ubuntu/overlayroot@0.45ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2632e8ef-10a4-4d76-9fee-c513be7b7662",
+      "type": "library",
+      "name": "packagekit",
+      "version": "1.1.13-2ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/packagekit@1.1.13-2ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f58285d8-bb21-49fd-8dfc-5ee309f7baa4",
+      "type": "library",
+      "name": "packagekit-tools",
+      "version": "1.1.13-2ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/packagekit-tools@1.1.13-2ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "017018a8-8704-47e7-8f51-9ff7257292f8",
+      "type": "library",
+      "name": "parted",
+      "version": "3.3-4ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/parted@3.3-4ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "987c3318-df3f-41ce-979a-bab68724f14f",
+      "type": "library",
+      "name": "passwd",
+      "version": "1:4.8.1-1ubuntu5.20.04.5",
+      "purl": "pkg:deb/ubuntu/passwd@1%3A4.8.1-1ubuntu5.20.04.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "72633053-13fb-4864-801e-83b362f40b5c",
+      "type": "library",
+      "name": "pastebinit",
+      "version": "1.5.1-1",
+      "purl": "pkg:deb/ubuntu/pastebinit@1.5.1-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f488c621-72f3-402d-97b8-639013928307",
+      "type": "library",
+      "name": "patch",
+      "version": "2.7.6-6",
+      "purl": "pkg:deb/ubuntu/patch@2.7.6-6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b9c4381c-2445-4848-8ba9-5e1e33dad3c4",
+      "type": "library",
+      "name": "pci.ids",
+      "version": "0.0~2020.03.20-1",
+      "purl": "pkg:deb/ubuntu/pci.ids@0.0~2020.03.20-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d0a2bc88-c8df-47eb-b249-bfd199abf757",
+      "type": "library",
+      "name": "pciutils",
+      "version": "1:3.6.4-1ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/pciutils@1%3A3.6.4-1ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "85b470be-aadb-4ffa-9b1d-6e8e13622078",
+      "type": "library",
+      "name": "perl",
+      "version": "5.30.0-9ubuntu0.5",
+      "purl": "pkg:deb/ubuntu/perl@5.30.0-9ubuntu0.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e6b35787-a081-4b34-8f2e-18ac69caa6db",
+      "type": "library",
+      "name": "perl-base",
+      "version": "5.30.0-9ubuntu0.5",
+      "purl": "pkg:deb/ubuntu/perl-base@5.30.0-9ubuntu0.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b545d722-551d-4024-9b63-3b05eb378940",
+      "type": "library",
+      "name": "perl-modules-5.30",
+      "version": "5.30.0-9ubuntu0.5",
+      "purl": "pkg:deb/ubuntu/perl-modules-5.30@5.30.0-9ubuntu0.5?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eb527ce8-0442-4b88-9fe9-5f8bec28b030",
+      "type": "library",
+      "name": "pinentry-curses",
+      "version": "1.1.0-3build1",
+      "purl": "pkg:deb/ubuntu/pinentry-curses@1.1.0-3build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "711f82c1-1d5a-4896-af97-cbefab89a5e1",
+      "type": "library",
+      "name": "plymouth",
+      "version": "0.9.4git20200323-0ubuntu6.2",
+      "purl": "pkg:deb/ubuntu/plymouth@0.9.4git20200323-0ubuntu6.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "32cea1ee-62fd-4fb2-a29e-0dbd5dc9cd80",
+      "type": "library",
+      "name": "plymouth-theme-ubuntu-text",
+      "version": "0.9.4git20200323-0ubuntu6.2",
+      "purl": "pkg:deb/ubuntu/plymouth-theme-ubuntu-text@0.9.4git20200323-0ubuntu6.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "42d44c9b-5951-4bf3-b12a-2309ffb86df8",
+      "type": "library",
+      "name": "policykit-1",
+      "version": "0.105-26ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/policykit-1@0.105-26ubuntu1.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5aec0157-e70b-468c-9a20-a7144882f00b",
+      "type": "library",
+      "name": "pollinate",
+      "version": "4.33-3ubuntu1.20.04.2",
+      "purl": "pkg:deb/ubuntu/pollinate@4.33-3ubuntu1.20.04.2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e0df3f70-4e5d-482a-9d12-b3b99d8b50ae",
+      "type": "library",
+      "name": "popularity-contest",
+      "version": "1.69ubuntu1",
+      "purl": "pkg:deb/ubuntu/popularity-contest@1.69ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e2bc4479-05a3-48a4-ba16-4714daf55d09",
+      "type": "library",
+      "name": "powermgmt-base",
+      "version": "1.36",
+      "purl": "pkg:deb/ubuntu/powermgmt-base@1.36?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "18733771-6179-495f-ae14-34c2885bdcc6",
+      "type": "library",
+      "name": "procps",
+      "version": "2:3.3.16-1ubuntu2.4",
+      "purl": "pkg:deb/ubuntu/procps@2%3A3.3.16-1ubuntu2.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5b2967b5-ac1c-4db0-8ed2-dc9fe87c0c24",
+      "type": "library",
+      "name": "psmisc",
+      "version": "23.3-1",
+      "purl": "pkg:deb/ubuntu/psmisc@23.3-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1d4cc732-68e2-4af2-b8d4-90a7495b22ac",
+      "type": "library",
+      "name": "publicsuffix",
+      "version": "20200303.0012-1",
+      "purl": "pkg:deb/ubuntu/publicsuffix@20200303.0012-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1c63b6c4-de19-4c19-815f-1ae6033fbff6",
+      "type": "library",
+      "name": "python-apt-common",
+      "version": "2.0.1ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/python-apt-common@2.0.1ubuntu0.20.04.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "01211ce7-78c7-43b0-97c0-bcbac6a626da",
+      "type": "library",
+      "name": "python-pip-whl",
+      "version": "20.0.2-5ubuntu1.11",
+      "purl": "pkg:deb/ubuntu/python-pip-whl@20.0.2-5ubuntu1.11?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4a4817c9-a129-4dd7-8914-bcf7800aac43",
+      "type": "library",
+      "name": "python3",
+      "version": "3.8.2-0ubuntu2",
+      "purl": "pkg:deb/ubuntu/python3@3.8.2-0ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a3155404-066e-4559-bef2-8e616f515cfa",
+      "type": "library",
+      "name": "python3-apport",
+      "version": "2.20.11-0ubuntu27.29",
+      "purl": "pkg:deb/ubuntu/python3-apport@2.20.11-0ubuntu27.29?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d4231a5a-aa0b-4d14-a41b-15207dc9378c",
+      "type": "library",
+      "name": "python3-apt",
+      "version": "2.0.1ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/python3-apt@2.0.1ubuntu0.20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "43d8c30c-8206-412d-b005-4ef452f6ed61",
+      "type": "library",
+      "name": "python3-attr",
+      "version": "19.3.0-2",
+      "purl": "pkg:deb/ubuntu/python3-attr@19.3.0-2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c0465361-31d8-4821-8e03-99a1c0085e49",
+      "type": "library",
+      "name": "python3-automat",
+      "version": "0.8.0-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-automat@0.8.0-1ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7920e81e-d23a-481f-8658-ee2a3f11ebc1",
+      "type": "library",
+      "name": "python3-blinker",
+      "version": "1.4+dfsg1-0.3ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-blinker@1.4%2Bdfsg1-0.3ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0bb9b196-aec9-4282-af46-ece5ab75f27e",
+      "type": "library",
+      "name": "python3-certifi",
+      "version": "2019.11.28-1",
+      "purl": "pkg:deb/ubuntu/python3-certifi@2019.11.28-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b22fa76a-e969-4f90-90bc-82d943824a14",
+      "type": "library",
+      "name": "python3-cffi-backend",
+      "version": "1.14.0-1build1",
+      "purl": "pkg:deb/ubuntu/python3-cffi-backend@1.14.0-1build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5f25a31c-7846-4560-895c-d242bbc70248",
+      "type": "library",
+      "name": "python3-chardet",
+      "version": "3.0.4-4build1",
+      "purl": "pkg:deb/ubuntu/python3-chardet@3.0.4-4build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "80cb388f-820b-446b-901d-d2ae3b04a9e5",
+      "type": "library",
+      "name": "python3-click",
+      "version": "7.0-3",
+      "purl": "pkg:deb/ubuntu/python3-click@7.0-3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "176a2674-2ae4-42a5-a5c1-9e95cb6a3ba4",
+      "type": "library",
+      "name": "python3-colorama",
+      "version": "0.4.3-1build1",
+      "purl": "pkg:deb/ubuntu/python3-colorama@0.4.3-1build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "469adb55-c1e3-4e4b-8742-1bc01e53aa85",
+      "type": "library",
+      "name": "python3-commandnotfound",
+      "version": "20.04.6",
+      "purl": "pkg:deb/ubuntu/python3-commandnotfound@20.04.6?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "42391644-05bc-40bb-89bb-584b577af66e",
+      "type": "library",
+      "name": "python3-configobj",
+      "version": "5.0.6-4ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/python3-configobj@5.0.6-4ubuntu0.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d1a0f868-c655-4136-9b6f-ba26d15a311d",
+      "type": "library",
+      "name": "python3-constantly",
+      "version": "15.1.0-1build1",
+      "purl": "pkg:deb/ubuntu/python3-constantly@15.1.0-1build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "62e04b60-a873-4878-85f4-5e04dd707d7f",
+      "type": "library",
+      "name": "python3-cryptography",
+      "version": "2.8-3ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/python3-cryptography@2.8-3ubuntu0.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "936c72af-d5a1-47aa-8d7f-4c9fe7a9ac48",
+      "type": "library",
+      "name": "python3-dbus",
+      "version": "1.2.16-1build1",
+      "purl": "pkg:deb/ubuntu/python3-dbus@1.2.16-1build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fb3bebe0-ce2d-4a73-8375-8de0c27187cf",
+      "type": "library",
+      "name": "python3-debconf",
+      "version": "1.5.73",
+      "purl": "pkg:deb/ubuntu/python3-debconf@1.5.73?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c7e50ac0-94ca-415b-aa40-2f62c38d3dee",
+      "type": "library",
+      "name": "python3-debian",
+      "version": "0.1.36ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/python3-debian@0.1.36ubuntu1.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "907c4f47-6434-4ff2-b1e8-582a33f2c459",
+      "type": "library",
+      "name": "python3-distro",
+      "version": "1.4.0-1",
+      "purl": "pkg:deb/ubuntu/python3-distro@1.4.0-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df7c6d35-07a5-4b1d-b6a0-561cdeadf78e",
+      "type": "library",
+      "name": "python3-distro-info",
+      "version": "0.23ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/python3-distro-info@0.23ubuntu1.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "98a5804a-9cbf-456c-bbd4-2cf0456fad10",
+      "type": "library",
+      "name": "python3-distupgrade",
+      "version": "1:20.04.41",
+      "purl": "pkg:deb/ubuntu/python3-distupgrade@1%3A20.04.41?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1854e0ea-b4a5-4ef9-8f53-521053400b8f",
+      "type": "library",
+      "name": "python3-distutils",
+      "version": "3.8.10-0ubuntu1~20.04",
+      "purl": "pkg:deb/ubuntu/python3-distutils@3.8.10-0ubuntu1~20.04?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5f7ff554-4a90-4a0f-b188-209991acb298",
+      "type": "library",
+      "name": "python3-entrypoints",
+      "version": "0.3-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-entrypoints@0.3-2ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5d0471a8-1067-404e-8643-a718f79e8876",
+      "type": "library",
+      "name": "python3-gdbm",
+      "version": "3.8.10-0ubuntu1~20.04",
+      "purl": "pkg:deb/ubuntu/python3-gdbm@3.8.10-0ubuntu1~20.04?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "bf0739f3-fe04-424b-a5b2-7f4c0dfab952",
+      "type": "library",
+      "name": "python3-gi",
+      "version": "3.36.0-1",
+      "purl": "pkg:deb/ubuntu/python3-gi@3.36.0-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "caa30528-bc5b-4332-9ec4-57726bb67797",
+      "type": "library",
+      "name": "python3-hamcrest",
+      "version": "1.9.0-3",
+      "purl": "pkg:deb/ubuntu/python3-hamcrest@1.9.0-3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df09a2ab-bdb1-4469-9af9-c1a0c5f973c0",
+      "type": "library",
+      "name": "python3-httplib2",
+      "version": "0.14.0-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-httplib2@0.14.0-1ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "264ea624-c248-443b-aa91-1948d80ba6cd",
+      "type": "library",
+      "name": "python3-hyperlink",
+      "version": "19.0.0-1",
+      "purl": "pkg:deb/ubuntu/python3-hyperlink@19.0.0-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e5f1198e-1478-4c72-85f7-558b802f4570",
+      "type": "library",
+      "name": "python3-idna",
+      "version": "2.8-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/python3-idna@2.8-1ubuntu0.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a8154ba8-5e43-4e4e-a40c-8b6ce082772e",
+      "type": "library",
+      "name": "python3-importlib-metadata",
+      "version": "1.5.0-1",
+      "purl": "pkg:deb/ubuntu/python3-importlib-metadata@1.5.0-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "dc398657-54bf-4234-a1c0-574f1115c9ed",
+      "type": "library",
+      "name": "python3-incremental",
+      "version": "16.10.1-3.2",
+      "purl": "pkg:deb/ubuntu/python3-incremental@16.10.1-3.2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a4b4b675-8315-4acd-8a5c-d0644647c1d6",
+      "type": "library",
+      "name": "python3-jinja2",
+      "version": "2.10.1-2ubuntu0.6",
+      "purl": "pkg:deb/ubuntu/python3-jinja2@2.10.1-2ubuntu0.6?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d96b006f-ca60-476e-935f-4db264ce288f",
+      "type": "library",
+      "name": "python3-json-pointer",
+      "version": "2.0-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-json-pointer@2.0-0ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e159df7a-b042-4c64-badc-11c348bac5ae",
+      "type": "library",
+      "name": "python3-jsonpatch",
+      "version": "1.23-3",
+      "purl": "pkg:deb/ubuntu/python3-jsonpatch@1.23-3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f54d97cf-cb5f-4b4f-9329-df6a4ebb2b28",
+      "type": "library",
+      "name": "python3-jsonschema",
+      "version": "3.2.0-0ubuntu2",
+      "purl": "pkg:deb/ubuntu/python3-jsonschema@3.2.0-0ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8bb3a18d-ff89-4bfb-85e3-58b1d740c20b",
+      "type": "library",
+      "name": "python3-jwt",
+      "version": "1.7.1-2ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/python3-jwt@1.7.1-2ubuntu2.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c9f384bf-f858-437b-a5c3-7c7f98b196b1",
+      "type": "library",
+      "name": "python3-keyring",
+      "version": "18.0.1-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-keyring@18.0.1-2ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "782034a1-2888-4fe9-9b83-94aafbca8b63",
+      "type": "library",
+      "name": "python3-launchpadlib",
+      "version": "1.10.13-1",
+      "purl": "pkg:deb/ubuntu/python3-launchpadlib@1.10.13-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1b2a4f4e-0f24-4af0-a3b7-7d3c4bf4044a",
+      "type": "library",
+      "name": "python3-lazr.restfulclient",
+      "version": "0.14.2-2build1",
+      "purl": "pkg:deb/ubuntu/python3-lazr.restfulclient@0.14.2-2build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6e7528d1-f626-42cc-8df2-19ab2571a4cb",
+      "type": "library",
+      "name": "python3-lazr.uri",
+      "version": "1.0.3-4build1",
+      "purl": "pkg:deb/ubuntu/python3-lazr.uri@1.0.3-4build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "474cbc37-7441-4bb2-9b70-b7b1a5a2bd20",
+      "type": "library",
+      "name": "python3-lib2to3",
+      "version": "3.8.10-0ubuntu1~20.04",
+      "purl": "pkg:deb/ubuntu/python3-lib2to3@3.8.10-0ubuntu1~20.04?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0edf7f27-4d6a-4d6b-a03b-2c9dd1337e4e",
+      "type": "library",
+      "name": "python3-markupsafe",
+      "version": "1.1.0-1build2",
+      "purl": "pkg:deb/ubuntu/python3-markupsafe@1.1.0-1build2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eae6b52b-db25-4c61-9776-5aded44ca689",
+      "type": "library",
+      "name": "python3-minimal",
+      "version": "3.8.2-0ubuntu2",
+      "purl": "pkg:deb/ubuntu/python3-minimal@3.8.2-0ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1eec5067-8fb8-4630-ab1f-df066437fd49",
+      "type": "library",
+      "name": "python3-more-itertools",
+      "version": "4.2.0-1build1",
+      "purl": "pkg:deb/ubuntu/python3-more-itertools@4.2.0-1build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "aa5153d5-e77c-4370-8188-89fa8143efff",
+      "type": "library",
+      "name": "python3-nacl",
+      "version": "1.3.0-5",
+      "purl": "pkg:deb/ubuntu/python3-nacl@1.3.0-5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c22a371e-27a1-493b-86b1-b1dd073153b6",
+      "type": "library",
+      "name": "python3-netifaces",
+      "version": "0.10.4-1ubuntu4",
+      "purl": "pkg:deb/ubuntu/python3-netifaces@0.10.4-1ubuntu4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0ab56a66-26de-4010-b456-63e0634d753a",
+      "type": "library",
+      "name": "python3-newt",
+      "version": "0.52.21-4ubuntu2",
+      "purl": "pkg:deb/ubuntu/python3-newt@0.52.21-4ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ff57dcd2-f3c2-4447-92ef-9f8fff5ebbec",
+      "type": "library",
+      "name": "python3-oauthlib",
+      "version": "3.1.0-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/python3-oauthlib@3.1.0-1ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "abea561b-fc29-47fe-b7cf-bc0d3bb28c12",
+      "type": "library",
+      "name": "python3-openssl",
+      "version": "19.0.0-1build1",
+      "purl": "pkg:deb/ubuntu/python3-openssl@19.0.0-1build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f39522b8-3f01-45e5-aec6-12c3581809ab",
+      "type": "library",
+      "name": "python3-packaging",
+      "version": "20.3-1",
+      "purl": "pkg:deb/ubuntu/python3-packaging@20.3-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "82f53094-c48a-4260-aedd-db8db2003f27",
+      "type": "library",
+      "name": "python3-pexpect",
+      "version": "4.6.0-1build1",
+      "purl": "pkg:deb/ubuntu/python3-pexpect@4.6.0-1build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2e838a06-816e-43bc-a421-b0cafb902b4c",
+      "type": "library",
+      "name": "python3-pip",
+      "version": "20.0.2-5ubuntu1.11",
+      "purl": "pkg:deb/ubuntu/python3-pip@20.0.2-5ubuntu1.11?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "88f2e916-78c0-4faf-9f22-36edee5d12c9",
+      "type": "library",
+      "name": "python3-pkg-resources",
+      "version": "45.2.0-1ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/python3-pkg-resources@45.2.0-1ubuntu0.3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b9300d89-2712-4a12-abf3-dd8a0d62b8ee",
+      "type": "library",
+      "name": "python3-problem-report",
+      "version": "2.20.11-0ubuntu27.29",
+      "purl": "pkg:deb/ubuntu/python3-problem-report@2.20.11-0ubuntu27.29?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3a69477f-ad52-44d0-9e8e-1f22d7628884",
+      "type": "library",
+      "name": "python3-ptyprocess",
+      "version": "0.6.0-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-ptyprocess@0.6.0-1ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "eb1dd0c8-dd72-49ca-87d8-16918b464236",
+      "type": "library",
+      "name": "python3-pyasn1",
+      "version": "0.4.2-3build1",
+      "purl": "pkg:deb/ubuntu/python3-pyasn1@0.4.2-3build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "17b46c75-656b-488a-b543-75d6ac76da3a",
+      "type": "library",
+      "name": "python3-pyasn1-modules",
+      "version": "0.2.1-0.2build1",
+      "purl": "pkg:deb/ubuntu/python3-pyasn1-modules@0.2.1-0.2build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "aa8113a7-a15b-4685-ad66-7652423b4f66",
+      "type": "library",
+      "name": "python3-pymacaroons",
+      "version": "0.13.0-3",
+      "purl": "pkg:deb/ubuntu/python3-pymacaroons@0.13.0-3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1fe72520-28a8-407f-b162-2fe122b3ab4d",
+      "type": "library",
+      "name": "python3-pyparsing",
+      "version": "2.4.6-1",
+      "purl": "pkg:deb/ubuntu/python3-pyparsing@2.4.6-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "31d9ddea-5086-4916-bf83-8dfd04ff5101",
+      "type": "library",
+      "name": "python3-pyrsistent",
+      "version": "0.15.5-1build1",
+      "purl": "pkg:deb/ubuntu/python3-pyrsistent@0.15.5-1build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "15c4a7e7-d5bd-44f3-ac8c-b8de79446f56",
+      "type": "library",
+      "name": "python3-requests",
+      "version": "2.22.0-2ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/python3-requests@2.22.0-2ubuntu1.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "84340711-c420-408b-a4ab-70cfccf4f491",
+      "type": "library",
+      "name": "python3-requests-unixsocket",
+      "version": "0.2.0-2",
+      "purl": "pkg:deb/ubuntu/python3-requests-unixsocket@0.2.0-2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "740fe3b6-ab60-4929-9fe3-db2a80fe82f3",
+      "type": "library",
+      "name": "python3-secretstorage",
+      "version": "2.3.1-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/python3-secretstorage@2.3.1-2ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ad3a80bb-ef9a-43c3-a47b-dce40710acce",
+      "type": "library",
+      "name": "python3-serial",
+      "version": "3.4-5.1",
+      "purl": "pkg:deb/ubuntu/python3-serial@3.4-5.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cc7631d8-5b77-4c57-9908-05a5e65ccf94",
+      "type": "library",
+      "name": "python3-service-identity",
+      "version": "18.1.0-5build1",
+      "purl": "pkg:deb/ubuntu/python3-service-identity@18.1.0-5build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a605043e-884d-4be2-9035-58bf2961e894",
+      "type": "library",
+      "name": "python3-setuptools",
+      "version": "45.2.0-1ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/python3-setuptools@45.2.0-1ubuntu0.3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "edc6d43a-c51e-49a8-949c-074fd2e70eb4",
+      "type": "library",
+      "name": "python3-simplejson",
+      "version": "3.16.0-2ubuntu2",
+      "purl": "pkg:deb/ubuntu/python3-simplejson@3.16.0-2ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "96615ab3-c348-4439-a258-169aa62a3e7a",
+      "type": "library",
+      "name": "python3-six",
+      "version": "1.14.0-2",
+      "purl": "pkg:deb/ubuntu/python3-six@1.14.0-2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "277abeeb-b489-4652-bf54-e3365e54cac6",
+      "type": "library",
+      "name": "python3-software-properties",
+      "version": "0.99.9.12",
+      "purl": "pkg:deb/ubuntu/python3-software-properties@0.99.9.12?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "34e05212-e5b1-44d2-8193-8ed050dc676e",
+      "type": "library",
+      "name": "python3-systemd",
+      "version": "234-3build2",
+      "purl": "pkg:deb/ubuntu/python3-systemd@234-3build2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "677bf2eb-0e0d-4392-bdd7-256f62d6b0d1",
+      "type": "library",
+      "name": "python3-twisted",
+      "version": "18.9.0-11ubuntu0.20.04.5",
+      "purl": "pkg:deb/ubuntu/python3-twisted@18.9.0-11ubuntu0.20.04.5?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "af70aefa-2623-4a77-8d82-cd3355301db4",
+      "type": "library",
+      "name": "python3-twisted-bin",
+      "version": "18.9.0-11ubuntu0.20.04.5",
+      "purl": "pkg:deb/ubuntu/python3-twisted-bin@18.9.0-11ubuntu0.20.04.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f7dbecca-54c5-4513-898c-31e203f1b459",
+      "type": "library",
+      "name": "python3-update-manager",
+      "version": "1:20.04.10.23",
+      "purl": "pkg:deb/ubuntu/python3-update-manager@1%3A20.04.10.23?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "35ecdff3-8b12-40ee-902d-b20310354ea2",
+      "type": "library",
+      "name": "python3-urllib3",
+      "version": "1.25.8-2ubuntu0.4",
+      "purl": "pkg:deb/ubuntu/python3-urllib3@1.25.8-2ubuntu0.4?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f9c89b15-6920-4af8-8d7f-9583d5cc8beb",
+      "type": "library",
+      "name": "python3-wadllib",
+      "version": "1.3.3-3build1",
+      "purl": "pkg:deb/ubuntu/python3-wadllib@1.3.3-3build1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5c406822-3e1b-4348-8208-8557fb5a2cdb",
+      "type": "library",
+      "name": "python3-wheel",
+      "version": "0.34.2-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/python3-wheel@0.34.2-1ubuntu0.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e7bc95c8-37df-4e64-bb77-e12e95415a9f",
+      "type": "library",
+      "name": "python3-yaml",
+      "version": "5.3.1-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/python3-yaml@5.3.1-1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "48368a84-ecc1-426f-9c29-4aafec41dd8a",
+      "type": "library",
+      "name": "python3-zipp",
+      "version": "1.0.0-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/python3-zipp@1.0.0-1ubuntu0.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e1bdbc26-7dd4-44d9-853e-4f2b1231b4ca",
+      "type": "library",
+      "name": "python3-zope.interface",
+      "version": "4.7.1-1",
+      "purl": "pkg:deb/ubuntu/python3-zope.interface@4.7.1-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e4d9b2c0-e546-4d2a-8e40-a81c65e9ef07",
+      "type": "library",
+      "name": "python3.8",
+      "version": "3.8.10-0ubuntu1~20.04.18",
+      "purl": "pkg:deb/ubuntu/python3.8@3.8.10-0ubuntu1~20.04.18?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6a4c59b3-938b-4981-b110-4210ea2a5603",
+      "type": "library",
+      "name": "python3.8-minimal",
+      "version": "3.8.10-0ubuntu1~20.04.18",
+      "purl": "pkg:deb/ubuntu/python3.8-minimal@3.8.10-0ubuntu1~20.04.18?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "58952b05-34eb-45d2-832a-5b51545d7aa1",
+      "type": "library",
+      "name": "readline-common",
+      "version": "8.0-4",
+      "purl": "pkg:deb/ubuntu/readline-common@8.0-4?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d8b4125e-38e4-4927-9713-ccf000050704",
+      "type": "library",
+      "name": "rsync",
+      "version": "3.1.3-8ubuntu0.9",
+      "purl": "pkg:deb/ubuntu/rsync@3.1.3-8ubuntu0.9?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c130eba3-e176-4000-b54a-e7dba5f2ce79",
+      "type": "library",
+      "name": "rsyslog",
+      "version": "8.2001.0-1ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/rsyslog@8.2001.0-1ubuntu1.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3770baa3-ab5b-4017-8091-c740512cedf7",
+      "type": "library",
+      "name": "run-one",
+      "version": "1.17-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/run-one@1.17-0ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "893404fc-efac-4178-b65f-48a25369a8a5",
+      "type": "library",
+      "name": "sbsigntool",
+      "version": "0.9.2-2ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/sbsigntool@0.9.2-2ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9f5b0c32-c461-42c9-860c-fea6c22190fe",
+      "type": "library",
+      "name": "screen",
+      "version": "4.8.0-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/screen@4.8.0-1ubuntu0.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "14ac8783-2ca5-489c-8f82-af359d19b1c2",
+      "type": "library",
+      "name": "secureboot-db",
+      "version": "1.5",
+      "purl": "pkg:deb/ubuntu/secureboot-db@1.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e1a1615a-2856-46ce-99a6-b5069930d72a",
+      "type": "library",
+      "name": "sed",
+      "version": "4.7-1",
+      "purl": "pkg:deb/ubuntu/sed@4.7-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ea9d1db1-3b83-490b-b5c1-099f6ecb0dfe",
+      "type": "library",
+      "name": "sensible-utils",
+      "version": "0.0.12+nmu1",
+      "purl": "pkg:deb/ubuntu/sensible-utils@0.0.12%2Bnmu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e0c89c05-2184-4ab3-a946-f25b0bd34031",
+      "type": "library",
+      "name": "sg3-utils",
+      "version": "1.44-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/sg3-utils@1.44-1ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b7f3842a-5735-4b0b-b0a4-bf85e3a37f46",
+      "type": "library",
+      "name": "sg3-utils-udev",
+      "version": "1.44-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/sg3-utils-udev@1.44-1ubuntu2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d8072c40-8a42-4f0c-bdba-05de64219d32",
+      "type": "library",
+      "name": "shared-mime-info",
+      "version": "1.15-1",
+      "purl": "pkg:deb/ubuntu/shared-mime-info@1.15-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1af447a7-e7ac-4b09-9092-a1f323da933d",
+      "type": "library",
+      "name": "shim-signed",
+      "version": "1.40.10+15.8-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/shim-signed@1.40.10%2B15.8-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cda4d10c-39d5-4c88-9e88-2252b030e4d8",
+      "type": "library",
+      "name": "snapd",
+      "version": "2.67.1+20.04",
+      "purl": "pkg:deb/ubuntu/snapd@2.67.1%2B20.04?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "74985cff-f9df-443c-b328-8c0346f857e8",
+      "type": "library",
+      "name": "software-properties-common",
+      "version": "0.99.9.12",
+      "purl": "pkg:deb/ubuntu/software-properties-common@0.99.9.12?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f65d0a13-cf1b-4d86-9685-44b1efce08f7",
+      "type": "library",
+      "name": "sosreport",
+      "version": "4.8.2-0ubuntu0~20.04.1",
+      "purl": "pkg:deb/ubuntu/sosreport@4.8.2-0ubuntu0~20.04.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "3daf02d2-766a-4727-94b3-652645e7331f",
+      "type": "library",
+      "name": "sound-theme-freedesktop",
+      "version": "0.8-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/sound-theme-freedesktop@0.8-2ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0b2185f7-be3e-4f17-a68b-a0659c4d51c8",
+      "type": "library",
+      "name": "squashfs-tools",
+      "version": "1:4.4-1ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/squashfs-tools@1%3A4.4-1ubuntu0.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "fbbfca7d-dcbe-4cf0-a4d6-4be2553a7e57",
+      "type": "library",
+      "name": "ssh-import-id",
+      "version": "5.10-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/ssh-import-id@5.10-0ubuntu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5fe8d19d-401d-47fe-9fce-cbe4e6ec8137",
+      "type": "library",
+      "name": "strace",
+      "version": "5.5-3ubuntu1",
+      "purl": "pkg:deb/ubuntu/strace@5.5-3ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f851f80a-869b-4d5d-b5e7-8c95f955ad6c",
+      "type": "library",
+      "name": "sudo",
+      "version": "1.8.31-1ubuntu1.5",
+      "purl": "pkg:deb/ubuntu/sudo@1.8.31-1ubuntu1.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0d167ce8-9ba9-4461-8064-e051185fc5d9",
+      "type": "library",
+      "name": "systemd",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/systemd@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "82323be1-3185-47d6-a45f-27d1aca26b39",
+      "type": "library",
+      "name": "systemd-sysv",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/systemd-sysv@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "7e002c32-f1e3-413f-b18b-7b616fe8c6eb",
+      "type": "library",
+      "name": "systemd-timesyncd",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/systemd-timesyncd@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "33d0651f-e92b-45ea-a3c0-2c934894d7f2",
+      "type": "library",
+      "name": "sysvinit-utils",
+      "version": "2.96-2.1ubuntu1",
+      "purl": "pkg:deb/ubuntu/sysvinit-utils@2.96-2.1ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f94c246a-9ef6-45d4-a98d-2a46957986fc",
+      "type": "library",
+      "name": "tar",
+      "version": "1.30+dfsg-7ubuntu0.20.04.4",
+      "purl": "pkg:deb/ubuntu/tar@1.30%2Bdfsg-7ubuntu0.20.04.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8c1ee1c8-bc5e-4e95-bad4-65acc98ff65d",
+      "type": "library",
+      "name": "tcpdump",
+      "version": "4.9.3-4ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/tcpdump@4.9.3-4ubuntu0.3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e1fef97e-838e-4b63-85a3-622cf1c956fb",
+      "type": "library",
+      "name": "telnet",
+      "version": "0.17-41.2build1",
+      "purl": "pkg:deb/ubuntu/telnet@0.17-41.2build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "52f9b192-a35c-43ac-8c82-51a160077633",
+      "type": "library",
+      "name": "thin-provisioning-tools",
+      "version": "0.8.5-4build1",
+      "purl": "pkg:deb/ubuntu/thin-provisioning-tools@0.8.5-4build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "ee3c910e-d8cc-4733-a234-c1e243471989",
+      "type": "library",
+      "name": "time",
+      "version": "1.7-25.1build1",
+      "purl": "pkg:deb/ubuntu/time@1.7-25.1build1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "010333b0-5341-4b3d-b6a9-56b1c459919f",
+      "type": "library",
+      "name": "tmux",
+      "version": "3.0a-2ubuntu0.4",
+      "purl": "pkg:deb/ubuntu/tmux@3.0a-2ubuntu0.4?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b74e2035-a716-4c4f-b251-6ad38a6e6dd0",
+      "type": "library",
+      "name": "tpm-udev",
+      "version": "0.4",
+      "purl": "pkg:deb/ubuntu/tpm-udev@0.4?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "2842cfbc-778b-41a1-bc2f-a74b76a71b9a",
+      "type": "library",
+      "name": "tzdata",
+      "version": "2025b-0ubuntu0.20.04.1",
+      "purl": "pkg:deb/ubuntu/tzdata@2025b-0ubuntu0.20.04.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cf8b43f9-21a8-404b-9fff-b06ba51f1497",
+      "type": "library",
+      "name": "ubuntu-advantage-tools",
+      "version": "35.1ubuntu0~20.04",
+      "purl": "pkg:deb/ubuntu/ubuntu-advantage-tools@35.1ubuntu0~20.04?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "77d91925-a93b-4b94-8bea-6514b5fda622",
+      "type": "library",
+      "name": "ubuntu-keyring",
+      "version": "2020.02.11.4",
+      "purl": "pkg:deb/ubuntu/ubuntu-keyring@2020.02.11.4?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "25820e13-9c03-4318-8555-3ef032fdffbd",
+      "type": "library",
+      "name": "ubuntu-minimal",
+      "version": "1.450.2",
+      "purl": "pkg:deb/ubuntu/ubuntu-minimal@1.450.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "506cfdce-c52d-48a1-8993-bf9df9a1ffe1",
+      "type": "library",
+      "name": "ubuntu-pro-client",
+      "version": "35.1ubuntu0~20.04",
+      "purl": "pkg:deb/ubuntu/ubuntu-pro-client@35.1ubuntu0~20.04?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cad78088-d7f0-43f9-b403-c8d0abc4dcf9",
+      "type": "library",
+      "name": "ubuntu-pro-client-l10n",
+      "version": "35.1ubuntu0~20.04",
+      "purl": "pkg:deb/ubuntu/ubuntu-pro-client-l10n@35.1ubuntu0~20.04?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "746427a4-f4b7-4bd6-a7b7-b97ae469df13",
+      "type": "library",
+      "name": "ubuntu-release-upgrader-core",
+      "version": "1:20.04.41",
+      "purl": "pkg:deb/ubuntu/ubuntu-release-upgrader-core@1%3A20.04.41?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d22c316a-dd0b-4431-bae3-4a13ff66a0e9",
+      "type": "library",
+      "name": "ubuntu-server",
+      "version": "1.450.2",
+      "purl": "pkg:deb/ubuntu/ubuntu-server@1.450.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "8cbce9ff-628f-4813-8f17-f20648184e96",
+      "type": "library",
+      "name": "ubuntu-standard",
+      "version": "1.450.2",
+      "purl": "pkg:deb/ubuntu/ubuntu-standard@1.450.2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6c8cf46e-4ac9-47f2-a514-b91aa5efd8f8",
+      "type": "library",
+      "name": "ucf",
+      "version": "3.0038+nmu1",
+      "purl": "pkg:deb/ubuntu/ucf@3.0038%2Bnmu1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "94a3e5f8-a435-4283-a9f7-e98ce2476bd0",
+      "type": "library",
+      "name": "udev",
+      "version": "245.4-4ubuntu3.24",
+      "purl": "pkg:deb/ubuntu/udev@245.4-4ubuntu3.24?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "26d5ff64-e118-413f-99bf-847037e84624",
+      "type": "library",
+      "name": "udisks2",
+      "version": "2.8.4-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/udisks2@2.8.4-1ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "25af4efd-0b97-40cb-a221-f9e4e6f8fe84",
+      "type": "library",
+      "name": "ufw",
+      "version": "0.36-6ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/ufw@0.36-6ubuntu1.1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "f861b1c8-0a21-4857-b1aa-e2db019a8a5e",
+      "type": "library",
+      "name": "unattended-upgrades",
+      "version": "2.3ubuntu0.3",
+      "purl": "pkg:deb/ubuntu/unattended-upgrades@2.3ubuntu0.3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "c8d6b023-1136-4fcb-bc29-5b957fd2349d",
+      "type": "library",
+      "name": "update-manager-core",
+      "version": "1:20.04.10.23",
+      "purl": "pkg:deb/ubuntu/update-manager-core@1%3A20.04.10.23?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1c13f4f9-5072-4afe-ba53-c7d2db69394a",
+      "type": "library",
+      "name": "update-notifier-common",
+      "version": "3.192.30.19",
+      "purl": "pkg:deb/ubuntu/update-notifier-common@3.192.30.19?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4826c65b-8386-43d1-ba42-a972da718a77",
+      "type": "library",
+      "name": "usb-modeswitch",
+      "version": "2.5.2+repack0-2ubuntu3",
+      "purl": "pkg:deb/ubuntu/usb-modeswitch@2.5.2%2Brepack0-2ubuntu3?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "d89b9505-a955-47da-a891-cf6617137cc6",
+      "type": "library",
+      "name": "usb-modeswitch-data",
+      "version": "20191128-3",
+      "purl": "pkg:deb/ubuntu/usb-modeswitch-data@20191128-3?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b5846656-1852-4b8f-bba6-604c13249366",
+      "type": "library",
+      "name": "usb.ids",
+      "version": "2020.03.19-1",
+      "purl": "pkg:deb/ubuntu/usb.ids@2020.03.19-1?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "e1b68009-2c91-481b-a6c8-96d2291773be",
+      "type": "library",
+      "name": "usbutils",
+      "version": "1:012-2",
+      "purl": "pkg:deb/ubuntu/usbutils@1%3A012-2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6733df38-fcaf-422d-9634-462a4a6570bf",
+      "type": "library",
+      "name": "util-linux",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/util-linux@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "1c876381-d2b4-460f-86b2-1398ec19fdb2",
+      "type": "library",
+      "name": "uuid-runtime",
+      "version": "2.34-0.1ubuntu9.6",
+      "purl": "pkg:deb/ubuntu/uuid-runtime@2.34-0.1ubuntu9.6?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "6ce969d8-c23a-4d2f-98d2-b9e6bc55dcf5",
+      "type": "library",
+      "name": "vim",
+      "version": "2:8.1.2269-1ubuntu5.32",
+      "purl": "pkg:deb/ubuntu/vim@2%3A8.1.2269-1ubuntu5.32?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "5c1f9120-702d-4d55-a7ba-f2a7c1fd8a02",
+      "type": "library",
+      "name": "vim-common",
+      "version": "2:8.1.2269-1ubuntu5.32",
+      "purl": "pkg:deb/ubuntu/vim-common@2%3A8.1.2269-1ubuntu5.32?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "296ed5b1-8718-43d9-a0d7-dcdee3149fd4",
+      "type": "library",
+      "name": "vim-runtime",
+      "version": "2:8.1.2269-1ubuntu5.32",
+      "purl": "pkg:deb/ubuntu/vim-runtime@2%3A8.1.2269-1ubuntu5.32?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "44b23f91-825e-4ff9-8c22-0741e3029d5a",
+      "type": "library",
+      "name": "vim-tiny",
+      "version": "2:8.1.2269-1ubuntu5.32",
+      "purl": "pkg:deb/ubuntu/vim-tiny@2%3A8.1.2269-1ubuntu5.32?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "92ccb3c6-99a8-474d-8f58-27bfdabd1983",
+      "type": "library",
+      "name": "wget",
+      "version": "1.20.3-1ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/wget@1.20.3-1ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "811a6d67-7721-40f4-8a40-9383bd6d4b55",
+      "type": "library",
+      "name": "whiptail",
+      "version": "0.52.21-4ubuntu2",
+      "purl": "pkg:deb/ubuntu/whiptail@0.52.21-4ubuntu2?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "9836c4b9-e207-425d-8b9b-dc6fa5c07a92",
+      "type": "library",
+      "name": "xauth",
+      "version": "1:1.1-0ubuntu1",
+      "purl": "pkg:deb/ubuntu/xauth@1%3A1.1-0ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b05e0a08-e57b-4044-a2f1-b57fd4257dc8",
+      "type": "library",
+      "name": "xdg-user-dirs",
+      "version": "0.17-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/xdg-user-dirs@0.17-2ubuntu1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "58f251fd-4f55-4b20-b72e-cc9a1a00295f",
+      "type": "library",
+      "name": "xfsprogs",
+      "version": "5.3.0-1ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/xfsprogs@5.3.0-1ubuntu2.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "a508c535-6607-45be-8f9f-e0ec040bd521",
+      "type": "library",
+      "name": "xkb-data",
+      "version": "2.29-2",
+      "purl": "pkg:deb/ubuntu/xkb-data@2.29-2?arch=all\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "41c28c2b-e91c-495e-bd3d-876ff7994841",
+      "type": "library",
+      "name": "xxd",
+      "version": "2:8.1.2269-1ubuntu5.32",
+      "purl": "pkg:deb/ubuntu/xxd@2%3A8.1.2269-1ubuntu5.32?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "df29569c-b336-460a-8103-4ad53dd11dbf",
+      "type": "library",
+      "name": "xz-utils",
+      "version": "5.2.4-1ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/xz-utils@5.2.4-1ubuntu1.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "70aa4560-3f53-4a62-8a3c-29ea7a9f6679",
+      "type": "library",
+      "name": "zerofree",
+      "version": "1.1.1-1",
+      "purl": "pkg:deb/ubuntu/zerofree@1.1.1-1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "b167adec-94b9-4f24-a89f-6dd990f7de23",
+      "type": "library",
+      "name": "zlib1g",
+      "version": "1:1.2.11.dfsg-2ubuntu1.5",
+      "purl": "pkg:deb/ubuntu/zlib1g@1%3A1.2.11.dfsg-2ubuntu1.5?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "0a917903-6fe2-4862-962b-73751121a5dc",
+      "type": "library",
+      "name": "amazon-ssm-agent",
+      "version": "3.3.1957.0",
+      "purl": "pkg:snap/ubuntu/amazon-ssm-agent@3.3.1957.0?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "4c41455d-7892-47b4-9c4c-e41c8345e336",
+      "type": "library",
+      "name": "core20",
+      "version": "20250526",
+      "purl": "pkg:snap/ubuntu/core20@20250526?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "cba56a1c-0a12-45a5-b311-499ee2811fd8",
+      "type": "library",
+      "name": "core22",
+      "version": "20250528",
+      "purl": "pkg:snap/ubuntu/core22@20250528?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "623645d0-d78a-437d-ad4d-15a3a29f2fd6",
+      "type": "library",
+      "name": "lxd",
+      "version": "4.0.10-d342340",
+      "purl": "pkg:snap/ubuntu/lxd@4.0.10-d342340?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "57eeb96a-8b1b-42ae-b323-37d116a07a1a",
+      "type": "library",
+      "name": "snapd",
+      "version": "2.68.4.1",
+      "purl": "pkg:snap/ubuntu/snapd@2.68.4.1?arch=amd64\u0026distro=ubuntu-20.04"
+    },
+    {
+      "bom-ref": "dca32e8d-66db-4bc5-b10f-93140f69d818",
+      "type": "library",
+      "name": "pip",
+      "version": "25.0.1",
+      "purl": "pkg:pypi/pip@25.0.1"
+    },
+    {
+      "bom-ref": "692c52cc-ff09-4e52-89a2-ec5e0065a787",
+      "type": "library",
+      "name": "setuptools",
+      "version": "75.3.4",
+      "purl": "pkg:pypi/setuptools@75.3.4"
+    },
+    {
+      "bom-ref": "b35f2937-d2e3-4e63-936f-e79312b48e0b",
+      "type": "library",
+      "name": "Automat",
+      "version": "0.8.0",
+      "purl": "pkg:pypi/Automat@0.8.0"
+    },
+    {
+      "bom-ref": "4764d724-828c-406c-8599-443f82398cf2",
+      "type": "library",
+      "name": "Click",
+      "version": "7.0",
+      "purl": "pkg:pypi/Click@7.0"
+    },
+    {
+      "bom-ref": "f64352ef-b1e1-4ad4-bd4a-1c4dca864c3c",
+      "type": "library",
+      "name": "Jinja2",
+      "version": "2.10.1",
+      "purl": "pkg:pypi/Jinja2@2.10.1"
+    },
+    {
+      "bom-ref": "3f9c954e-fe98-492e-b798-27dc69cfba99",
+      "type": "library",
+      "name": "MarkupSafe",
+      "version": "1.1.0",
+      "purl": "pkg:pypi/MarkupSafe@1.1.0"
+    },
+    {
+      "bom-ref": "c876791b-e13b-4eb8-bdf5-41e6aa2704a7",
+      "type": "library",
+      "name": "PyGObject",
+      "version": "3.36.0",
+      "purl": "pkg:pypi/PyGObject@3.36.0"
+    },
+    {
+      "bom-ref": "6fad1590-9a69-4821-b99c-e30cbdf1c8d2",
+      "type": "library",
+      "name": "PyHamcrest",
+      "version": "1.9.0",
+      "purl": "pkg:pypi/PyHamcrest@1.9.0"
+    },
+    {
+      "bom-ref": "0ab88eb0-0889-42d3-bb52-6b1d830dbdc7",
+      "type": "library",
+      "name": "PyJWT",
+      "version": "1.7.1",
+      "purl": "pkg:pypi/PyJWT@1.7.1"
+    },
+    {
+      "bom-ref": "cbd59fd8-4bf6-43b2-9034-bcaf498c39e5",
+      "type": "library",
+      "name": "PyNaCl",
+      "version": "1.3.0",
+      "purl": "pkg:pypi/PyNaCl@1.3.0"
+    },
+    {
+      "bom-ref": "227297e7-2ef2-4e47-9f35-fbcbebcba966",
+      "type": "library",
+      "name": "PyYAML",
+      "version": "5.3.1",
+      "purl": "pkg:pypi/PyYAML@5.3.1"
+    },
+    {
+      "bom-ref": "c75a8458-5002-4b29-b2a9-25b09b6d349e",
+      "type": "library",
+      "name": "SecretStorage",
+      "version": "2.3.1",
+      "purl": "pkg:pypi/SecretStorage@2.3.1"
+    },
+    {
+      "bom-ref": "35071d2c-260c-4369-b87d-3198c846cebc",
+      "type": "library",
+      "name": "Twisted",
+      "version": "18.9.0",
+      "purl": "pkg:pypi/Twisted@18.9.0"
+    },
+    {
+      "bom-ref": "b225159e-f2ed-4f22-a660-a7c146ea7916",
+      "type": "library",
+      "name": "attrs",
+      "version": "19.3.0",
+      "purl": "pkg:pypi/attrs@19.3.0"
+    },
+    {
+      "bom-ref": "065ba5f2-17c0-4162-866a-6c689a975306",
+      "type": "library",
+      "name": "blinker",
+      "version": "1.4",
+      "purl": "pkg:pypi/blinker@1.4"
+    },
+    {
+      "bom-ref": "55bba6bd-e892-4045-ba8a-a534eaa5f545",
+      "type": "library",
+      "name": "certifi",
+      "version": "2019.11.28",
+      "purl": "pkg:pypi/certifi@2019.11.28"
+    },
+    {
+      "bom-ref": "5e4dee23-cdaf-4d95-935b-b28a2c87e1ba",
+      "type": "library",
+      "name": "chardet",
+      "version": "3.0.4",
+      "purl": "pkg:pypi/chardet@3.0.4"
+    },
+    {
+      "bom-ref": "87e21cbc-5103-47a0-8576-de093999f155",
+      "type": "library",
+      "name": "cloud-init",
+      "version": "24.4.1",
+      "purl": "pkg:pypi/cloud-init@24.4.1"
+    },
+    {
+      "bom-ref": "5573ba91-b4f8-4db5-b3d1-ee21b13278d6",
+      "type": "library",
+      "name": "colorama",
+      "version": "0.4.3",
+      "purl": "pkg:pypi/colorama@0.4.3"
+    },
+    {
+      "bom-ref": "f33c676a-31af-487a-897f-a55fdfed5f32",
+      "type": "library",
+      "name": "command-not-found",
+      "version": "0.3",
+      "purl": "pkg:pypi/command-not-found@0.3"
+    },
+    {
+      "bom-ref": "db47220c-d02b-432c-9196-faf4074c255f",
+      "type": "library",
+      "name": "configobj",
+      "version": "5.0.6",
+      "purl": "pkg:pypi/configobj@5.0.6"
+    },
+    {
+      "bom-ref": "1f80e07a-87b2-4093-928a-70517e6e5af9",
+      "type": "library",
+      "name": "constantly",
+      "version": "15.1.0",
+      "purl": "pkg:pypi/constantly@15.1.0"
+    },
+    {
+      "bom-ref": "589f5b25-4b4c-4fa1-83c6-19226ed3c085",
+      "type": "library",
+      "name": "cryptography",
+      "version": "2.8",
+      "purl": "pkg:pypi/cryptography@2.8"
+    },
+    {
+      "bom-ref": "3215665a-0920-4e8c-8a58-764ce5947ad4",
+      "type": "library",
+      "name": "dbus-python",
+      "version": "1.2.16",
+      "purl": "pkg:pypi/dbus-python@1.2.16"
+    },
+    {
+      "bom-ref": "0831fb60-dbd6-4bc3-a9bd-7129e2c8ab86",
+      "type": "library",
+      "name": "distro",
+      "version": "1.4.0",
+      "purl": "pkg:pypi/distro@1.4.0"
+    },
+    {
+      "bom-ref": "96fc519c-889b-403f-b299-86761080afb6",
+      "type": "library",
+      "name": "distro-info",
+      "version": "0.23+ubuntu1.1",
+      "purl": "pkg:pypi/distro-info@0.23%2Bubuntu1.1"
+    },
+    {
+      "bom-ref": "099f8dd4-86d5-43f4-8a50-78d721f32fca",
+      "type": "library",
+      "name": "ec2-hibinit-agent",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/ec2-hibinit-agent@1.0.0"
+    },
+    {
+      "bom-ref": "201c1ed3-2287-44a4-9366-0ea7c0929fd2",
+      "type": "library",
+      "name": "entrypoints",
+      "version": "0.3",
+      "purl": "pkg:pypi/entrypoints@0.3"
+    },
+    {
+      "bom-ref": "9c5384ef-61f9-4725-935a-f41c8f3fdb94",
+      "type": "library",
+      "name": "hibagent",
+      "version": "1.0.1",
+      "purl": "pkg:pypi/hibagent@1.0.1"
+    },
+    {
+      "bom-ref": "8df95863-4139-4839-a793-62a4694fb120",
+      "type": "library",
+      "name": "httplib2",
+      "version": "0.14.0",
+      "purl": "pkg:pypi/httplib2@0.14.0"
+    },
+    {
+      "bom-ref": "bfbb682c-3d61-4ebc-b7bf-3a60366a6b6d",
+      "type": "library",
+      "name": "hyperlink",
+      "version": "19.0.0",
+      "purl": "pkg:pypi/hyperlink@19.0.0"
+    },
+    {
+      "bom-ref": "b7372880-7bcc-44a2-9e4a-4b4fd3ecbcff",
+      "type": "library",
+      "name": "idna",
+      "version": "2.8",
+      "purl": "pkg:pypi/idna@2.8"
+    },
+    {
+      "bom-ref": "e03dcc45-df89-4e26-92d8-954cdf6c4e86",
+      "type": "library",
+      "name": "importlib-metadata",
+      "version": "1.5.0",
+      "purl": "pkg:pypi/importlib-metadata@1.5.0"
+    },
+    {
+      "bom-ref": "6d66c064-f932-4328-a9db-449b1d8e5ce3",
+      "type": "library",
+      "name": "incremental",
+      "version": "16.10.1",
+      "purl": "pkg:pypi/incremental@16.10.1"
+    },
+    {
+      "bom-ref": "5047e297-ecbe-4d40-9ed5-08b21d8b88e3",
+      "type": "library",
+      "name": "jsonpatch",
+      "version": "1.22",
+      "purl": "pkg:pypi/jsonpatch@1.22"
+    },
+    {
+      "bom-ref": "8a061b31-a55a-4d84-98ea-174ed4010e90",
+      "type": "library",
+      "name": "jsonpointer",
+      "version": "2.0",
+      "purl": "pkg:pypi/jsonpointer@2.0"
+    },
+    {
+      "bom-ref": "bbc442e6-bcd4-468d-a6bd-0167962e53df",
+      "type": "library",
+      "name": "jsonschema",
+      "version": "3.2.0",
+      "purl": "pkg:pypi/jsonschema@3.2.0"
+    },
+    {
+      "bom-ref": "ab52f9be-e86f-4bb7-b4de-6f4e49c0b3ab",
+      "type": "library",
+      "name": "keyring",
+      "version": "18.0.1",
+      "purl": "pkg:pypi/keyring@18.0.1"
+    },
+    {
+      "bom-ref": "d341df36-f002-40bb-8381-315cb3cd3590",
+      "type": "library",
+      "name": "language-selector",
+      "version": "0.1",
+      "purl": "pkg:pypi/language-selector@0.1"
+    },
+    {
+      "bom-ref": "9339e934-93b9-449d-80e6-07c06fffdc49",
+      "type": "library",
+      "name": "launchpadlib",
+      "version": "1.10.13",
+      "purl": "pkg:pypi/launchpadlib@1.10.13"
+    },
+    {
+      "bom-ref": "9921bbe4-3fa2-4264-8a7b-7e82b22d9407",
+      "type": "library",
+      "name": "lazr.restfulclient",
+      "version": "0.14.2",
+      "purl": "pkg:pypi/lazr.restfulclient@0.14.2"
+    },
+    {
+      "bom-ref": "4474703e-9ab9-4b82-ab48-a7321b769609",
+      "type": "library",
+      "name": "lazr.uri",
+      "version": "1.0.3",
+      "purl": "pkg:pypi/lazr.uri@1.0.3"
+    },
+    {
+      "bom-ref": "9b84c66a-178f-4c5f-8684-db1c091043f7",
+      "type": "library",
+      "name": "more-itertools",
+      "version": "4.2.0",
+      "purl": "pkg:pypi/more-itertools@4.2.0"
+    },
+    {
+      "bom-ref": "37f0b676-74bd-48f1-8b7e-fdd92130b09c",
+      "type": "library",
+      "name": "netifaces",
+      "version": "0.10.4",
+      "purl": "pkg:pypi/netifaces@0.10.4"
+    },
+    {
+      "bom-ref": "31881bbe-277d-4aa4-b7d3-0c84b9579932",
+      "type": "library",
+      "name": "oauthlib",
+      "version": "3.1.0",
+      "purl": "pkg:pypi/oauthlib@3.1.0"
+    },
+    {
+      "bom-ref": "b84eefe3-5976-43cd-b3c0-17eac3fb74dd",
+      "type": "library",
+      "name": "packaging",
+      "version": "20.3",
+      "purl": "pkg:pypi/packaging@20.3"
+    },
+    {
+      "bom-ref": "9f30ed95-5f31-40b1-b8af-61383d6c25a8",
+      "type": "library",
+      "name": "pexpect",
+      "version": "4.6.0",
+      "purl": "pkg:pypi/pexpect@4.6.0"
+    },
+    {
+      "bom-ref": "38a27141-3fdf-4b07-9f7a-909f32830fff",
+      "type": "library",
+      "name": "pip",
+      "version": "20.0.2",
+      "purl": "pkg:pypi/pip@20.0.2"
+    },
+    {
+      "bom-ref": "92740271-ab09-4ac3-991a-9ee02dbf4c8a",
+      "type": "library",
+      "name": "pyOpenSSL",
+      "version": "19.0.0",
+      "purl": "pkg:pypi/pyOpenSSL@19.0.0"
+    },
+    {
+      "bom-ref": "c50e41ab-6c78-4a0f-9a2e-f8f7e778a05d",
+      "type": "library",
+      "name": "pyasn1",
+      "version": "0.4.2",
+      "purl": "pkg:pypi/pyasn1@0.4.2"
+    },
+    {
+      "bom-ref": "cf70e777-985c-48f8-98cd-cf6c4cba35bc",
+      "type": "library",
+      "name": "pyasn1-modules",
+      "version": "0.2.1",
+      "purl": "pkg:pypi/pyasn1-modules@0.2.1"
+    },
+    {
+      "bom-ref": "80cd27c6-734b-466b-b4d4-21d2fc7ccbac",
+      "type": "library",
+      "name": "pymacaroons",
+      "version": "0.13.0",
+      "purl": "pkg:pypi/pymacaroons@0.13.0"
+    },
+    {
+      "bom-ref": "08ae0ad4-7abf-4789-933d-fba4e2067d31",
+      "type": "library",
+      "name": "pyparsing",
+      "version": "2.4.6",
+      "purl": "pkg:pypi/pyparsing@2.4.6"
+    },
+    {
+      "bom-ref": "1f4ad147-1fa3-4e92-ae58-045a2fb506f8",
+      "type": "library",
+      "name": "pyrsistent",
+      "version": "0.15.5",
+      "purl": "pkg:pypi/pyrsistent@0.15.5"
+    },
+    {
+      "bom-ref": "751beb1c-974d-4a17-afff-c59b23f4c4c8",
+      "type": "library",
+      "name": "pyserial",
+      "version": "3.4",
+      "purl": "pkg:pypi/pyserial@3.4"
+    },
+    {
+      "bom-ref": "5eaa6683-a3b5-47c5-94d7-8d56a263a956",
+      "type": "library",
+      "name": "python-apt",
+      "version": "2.0.1+ubuntu0.20.4.1",
+      "purl": "pkg:pypi/python-apt@2.0.1%2Bubuntu0.20.4.1"
+    },
+    {
+      "bom-ref": "ab934393-43f3-425e-bfd1-e40bb2b626e8",
+      "type": "library",
+      "name": "python-debian",
+      "version": "0.1.36+ubuntu1.1",
+      "purl": "pkg:pypi/python-debian@0.1.36%2Bubuntu1.1"
+    },
+    {
+      "bom-ref": "341fcc00-c8c9-4d1f-a866-bd729c798712",
+      "type": "library",
+      "name": "requests",
+      "version": "2.22.0",
+      "purl": "pkg:pypi/requests@2.22.0"
+    },
+    {
+      "bom-ref": "b4d532a7-fca5-42a9-840f-bccb3259c4f5",
+      "type": "library",
+      "name": "requests-unixsocket",
+      "version": "0.2.0",
+      "purl": "pkg:pypi/requests-unixsocket@0.2.0"
+    },
+    {
+      "bom-ref": "fb5647b4-31fe-46f9-8036-6ed5f1a21d03",
+      "type": "library",
+      "name": "service-identity",
+      "version": "18.1.0",
+      "purl": "pkg:pypi/service-identity@18.1.0"
+    },
+    {
+      "bom-ref": "bb311f7a-e57f-44e7-ac68-1eefaea427fe",
+      "type": "library",
+      "name": "setuptools",
+      "version": "45.2.0",
+      "purl": "pkg:pypi/setuptools@45.2.0"
+    },
+    {
+      "bom-ref": "acf20db2-9499-4cd6-94e6-ee005bda8850",
+      "type": "library",
+      "name": "simplejson",
+      "version": "3.16.0",
+      "purl": "pkg:pypi/simplejson@3.16.0"
+    },
+    {
+      "bom-ref": "3604b91c-33b0-4281-9abf-356ae27cbbf6",
+      "type": "library",
+      "name": "six",
+      "version": "1.14.0",
+      "purl": "pkg:pypi/six@1.14.0"
+    },
+    {
+      "bom-ref": "cbf398b6-0f38-4421-adce-6c029701dbd6",
+      "type": "library",
+      "name": "sos",
+      "version": "4.8.2",
+      "purl": "pkg:pypi/sos@4.8.2"
+    },
+    {
+      "bom-ref": "2440b6e0-ec62-44a9-8357-b50bef7f0eaa",
+      "type": "library",
+      "name": "ssh-import-id",
+      "version": "5.10",
+      "purl": "pkg:pypi/ssh-import-id@5.10"
+    },
+    {
+      "bom-ref": "b3b00493-e72a-4499-a672-6daf289cfcae",
+      "type": "library",
+      "name": "systemd-python",
+      "version": "234",
+      "purl": "pkg:pypi/systemd-python@234"
+    },
+    {
+      "bom-ref": "a0c842bc-ec91-42ed-ba25-d37196b3e6a8",
+      "type": "library",
+      "name": "ubuntu-pro-client",
+      "version": "8001",
+      "purl": "pkg:pypi/ubuntu-pro-client@8001"
+    },
+    {
+      "bom-ref": "5f2be65f-643b-41b0-9d64-ee844109f844",
+      "type": "library",
+      "name": "ufw",
+      "version": "0.36",
+      "purl": "pkg:pypi/ufw@0.36"
+    },
+    {
+      "bom-ref": "2c3f5970-3fea-450a-8fa1-931d8e383708",
+      "type": "library",
+      "name": "unattended-upgrades",
+      "version": "0.1",
+      "purl": "pkg:pypi/unattended-upgrades@0.1"
+    },
+    {
+      "bom-ref": "71f93ee0-f62d-4237-bae1-885d1b2ec25e",
+      "type": "library",
+      "name": "urllib3",
+      "version": "1.25.8",
+      "purl": "pkg:pypi/urllib3@1.25.8"
+    },
+    {
+      "bom-ref": "f6c3db6b-948d-4ba7-bff4-b4ca8e7a1b73",
+      "type": "library",
+      "name": "wadllib",
+      "version": "1.3.3",
+      "purl": "pkg:pypi/wadllib@1.3.3"
+    },
+    {
+      "bom-ref": "031d008b-4a30-429e-9147-6bf3c6296c47",
+      "type": "library",
+      "name": "wheel",
+      "version": "0.34.2",
+      "purl": "pkg:pypi/wheel@0.34.2"
+    },
+    {
+      "bom-ref": "037befcd-2984-4ee4-83f9-1ed676e611a9",
+      "type": "library",
+      "name": "zipp",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/zipp@1.0.0"
+    },
+    {
+      "bom-ref": "9955a2d8-d9e7-4a8f-b321-425e3cfd2af9",
+      "type": "library",
+      "name": "zope.interface",
+      "version": "4.7.1",
+      "purl": "pkg:pypi/zope.interface@4.7.1"
+    }
+  ]
+}
