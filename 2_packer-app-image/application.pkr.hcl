@@ -1,6 +1,6 @@
 variable "welcome_message" {
   type    = string
-  default = "Welcome to the Packer-built Application Server v3.0.0!"
+  default = "Welcome to the Packer-built Application Server Production v3.1.0!"
 }
 
 data "hcp-packer-version" "ubuntu" {
