@@ -35,3 +35,6 @@ terraform
 # Ignore .github folder
 ./github
 .github/
+
+# Ignore sbom file
+**/sbom
